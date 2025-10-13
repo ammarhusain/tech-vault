@@ -1,0 +1,459 @@
+Python code:
+
+!wget https://raw.githubusercontent.com/FranxYao/chain-of-thought-hub/main/gsm8k/lib_prompt/prompt_hardest.txt
+prompt_complex = open("./prompt_hardest.txt").read()
+
+from llmlingua import PromptCompressor
+llm_lingua = PromptCompressor(device_map="cpu")
+compressed_prompt = llm_lingua.compress_prompt(prompt_complex, instruction=instruction_prompt, ratio=0.4)
+
+
+---
+
+instruction_prompt
+
+
+I wanna co-create a story with you where you will start by starting the story and asking me a question about the desired direction of the story everytime you respond after saying a just few sentences of the continuing story. Please start by asking me what type of story I want to create and don't preface it with 'Sure thing', 'Of course' or other statements.
+
+
+compressed_prompt
+
+
+I wanna co-create a story with you where you will start by starting the story and asking me a question about the desired direction of the story everytime you respond after saying a just few sentences of the continuing story. Please start by asking me what type of story I want to create and don't preface it with 'Sure thing', 'Of course' or other statements.
+
+Question: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2ters of their textbook to study and 4ets toize. They figure out that they shouldate 3 hours to each chapter of their textbook and 1. hours forheet. If they plan to study no 4 hours each day, how many days they plan to study total the week if they take a 10- break every hour, include 3 1ute sn breaks day and 30 minutes forunch day?
+Lets think step step
+eloanie think they shouldate hours each of theters, 3 hours2ters6 hours total.
+For theets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4ets = 6 hours total.
+Angeloanie need to start with planning 12 hours to study, at 4 hours day, 12 /43 days.
+However, they need to include time for breaks andunch. Every hour they want to include a 0- break, so 12 total hours 10 minutes 10 minutes for breaks.
+They also want to include 310-ute sn breaks, 30 minutes0 minutes.
+And they want to include  minutesunch day, so 20 minutes for breaks3 minutes for snack breaksunch 10 minutes, or 10 / 60 minutes per hour = 3 extra hours.
+Soeloanie to plan 12 hours study + 3 hours of breaks =5 hours total.
+They to study no more than  hours day, 15 hours /4 hours day 35
+They will need to plan to study 4 days to allow for all the time they need.
+The answer is 4
+
+: Marks basketball team scores 25 2 pointers 83 pointers 10 throws.  Their opponents score double the 2 pointers but half the3 pointers and.  Whats the total of points scored by teams added together
+Lets think step step
+Marks team scores 52 pointers, meaning they scored 25*2=0 points in pointers.
+His team also scores 6 3 pointers, meaning they scored 8*3= 24 points in pointers
+They scored 10 throws, and free throws count as one point so they scored 0= points in throws
+All together team scored 50+0= 4 points
+Marks opponents scored double his teams number of pointers, meaning scored 50= points pointers
+isents scored halfs, 242= pointers
+They scored half Markss points, 0=
+ together 10++5=117 points
+The total score for the game is both teams scores together, so it is 84+7=1 points
+
+: Bella has two times as manybles as frises. She has 20 more than deck. If sheys 2/5 times more of each item, what would be the total of the items she will have she has 60bles
+Let step step
+Whenellays5 morebles, she'll have increased the numberbles by 25*0 = 24
+The ofbles she have is 04
+Ifella 0bles, and she has as manybles asises, she has 60/20es
+Ifellays 25 times morees, shell have 25*0 12 morees
+The total ofes she have will increase 022
+ella also has more than deck cards, she 000 cards
+If she5 more  cards
+ of have 
+Together,ella have 142+84140 items
+The 14
+: A of 4 fruit bets contains 9les 15, 14anas in the first threeets 2 less each the fourth. manyruits are there
+Let step step
+For the firstets, the ofles andanges in basket is 954
+In, together with, the ofruits in 8 forets
+Since areets each having, are 3ruits in
+The ofles the 7
+There are52=13anges in the fourth basket
+The combined ofanges andles in the is 13+7
+The basket also contains 14-22anas
+In, the basket 2ruits
+Theets together have 3+114ruits
+The
+
+: You can buy 4les 1on for. You bought 36ruits evenly betweenanges,les andelons, and the price of 1 orange is $0.50. much does1 cost if your total bill $66
+Let step
+If 6ruits were between 3 ofruits, then I 36/32 units of each fruit
+If 1 orange costs0 then12anges $0
+If bill6 I spentanges then66 on other 2 fruit types
+uming the ofel is W, and knowing that you4les for the price and that of one is, then 1WA
+If we know we 2ons and les for0 then we know that02A
+ that1W, then we can convert the above to 2A) + 12A
+$60 48A 
+ 
+Then we know the of one apple ( is $0=
+The is
+: Susy to a large school with 80 students, while a with .  At the the,y 100 mediaers  She 40ers first week of year, half that and half  Sarah only 0 the year, but ers, a a  After, many mediaers did the girl with the most totalers haveLet step
+Aftery 0+00ers
+In the,y 00
+Iny the0
+After 0+
+After Sarah/0
+So,10+0+00 totalers
+Th, Sarah most totalers with
+
+: Sam bought a dozen boxes, each 30l pens inside, $10 each. He reanged five of boxes into of six each $3. He the theters separately at the of three $. much make total,Let
+ bought boxes x00tersHe 2ters
+Sam then boxes6lters/box 0tersHe sold these for 5 $
+Afterelling these  boxes there 360ters
+ese0 0 of three
+ sold $2, so made *0 from
+, he $
+Since his1 he $5
+
+: a certain, 2 the students like,/ like to play. What the population school basketball if the of the and studentsLet step
+The students are35 parts are
+ part
+, 3 males
+,00 males/
+
+fore, 1000 - 480 = 520 do not like to play basketball.
+The percentage of the school that do not like to play basketball is 520/1000 * 100 = 52
+The answer is 52
+
+
+
+original_prompt
+
+
+Question: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?
+Let's think step by step
+Angelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.
+For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.
+Angelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.
+However, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks.
+They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.
+And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.
+So Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.
+They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75
+They will need to plan to study 4 days to allow for all the time they need.
+The answer is 4
+
+Question: Mark's basketball team scores 25 2 pointers, 8 3 pointers and 10 free throws.  Their opponents score double the 2 pointers but half the 3 pointers and free throws.  What's the total number of points scored by both teams added together?
+Let's think step by step
+Mark's team scores 25 2 pointers, meaning they scored 25*2= 50 points in 2 pointers.
+His team also scores 6 3 pointers, meaning they scored 8*3= 24 points in 3 pointers
+They scored 10 free throws, and free throws count as one point so they scored 10*1=10 points in free throws.
+All together his team scored 50+24+10= 84 points
+Mark's opponents scored double his team's number of 2 pointers, meaning they scored 50*2=100 points in 2 pointers.
+His opponents scored half his team's number of 3 pointers, meaning they scored 24/2= 12 points in 3 pointers.
+They also scored half Mark's team's points in free throws, meaning they scored 10/2=5 points in free throws.
+All together Mark's opponents scored 100+12+5=117 points
+The total score for the game is both team's scores added together, so it is 84+117=201 points
+The answer is 201
+
+Question: Bella has two times as many marbles as frisbees. She also has 20 more frisbees than deck cards. If she buys 2/5 times more of each item, what would be the total number of the items she will have if she currently has 60 marbles?
+Let's think step by step
+When Bella buys 2/5 times more marbles, she'll have increased the number of marbles by 2/5*60 = 24
+The total number of marbles she'll have is 60+24 = 84
+If Bella currently has 60 marbles, and she has two times as many marbles as frisbees, she has 60/2 = 30 frisbees.
+If Bella buys 2/5 times more frisbees, she'll have 2/5*30 = 12 more frisbees.
+The total number of frisbees she'll have will increase to 30+12 = 42
+Bella also has 20 more frisbees than deck cards, meaning she has 30-20 = 10 deck cards
+If she buys 2/5 times more deck cards, she'll have 2/5*10 = 4 more deck cards.
+The total number of deck cards she'll have is 10+4 = 14
+Together, Bella will have a total of 14+42+84 = 140 items
+The answer is 140
+
+Question: A group of 4 fruit baskets contains 9 apples, 15 oranges, and 14 bananas in the first three baskets and 2 less of each fruit in the fourth basket. How many fruits are there?
+Let's think step by step
+For the first three baskets, the number of apples and oranges in one basket is 9+15=24
+In total, together with bananas, the number of fruits in one basket is 24+14=38 for the first three baskets.
+Since there are three baskets each having 38 fruits, there are 3*38=114 fruits in the first three baskets.
+The number of apples in the fourth basket is 9-2=7
+There are also 15-2=13 oranges in the fourth basket
+The combined number of oranges and apples in the fourth basket is 13+7=20
+The fourth basket also contains 14-2=12 bananas.
+In total, the fourth basket has 20+12=32 fruits.
+The four baskets together have 32+114=146 fruits.
+The answer is 146
+
+Question: You can buy 4 apples or 1 watermelon for the same price. You bought 36 fruits evenly split between oranges, apples and watermelons, and the price of 1 orange is $0.50. How much does 1 apple cost if your total bill was $66?
+Let's think step by step
+If 36 fruits were evenly split between 3 types of fruits, then I bought 36/3 = 12 units of each fruit
+If 1 orange costs $0.50 then 12 oranges will cost $0.50 * 12 = $6
+If my total bill was $66 and I spent $6 on oranges then I spent $66 - $6 = $60 on the other 2 fruit types.
+Assuming the price of watermelon is W, and knowing that you can buy 4 apples for the same price and that the price of one apple is A, then 1W=4A
+If we know we bought 12 watermelons and 12 apples for $60, then we know that $60 = 12W + 12A
+Knowing that 1W=4A, then we can convert the above to $60 = 12(4A) + 12A
+$60 = 48A + 12A
+$60 = 60A
+Then we know the price of one apple (A) is $60/60= $1
+The answer is 1
+
+Question: Susy goes to a large school with 800 students, while Sarah goes to a smaller school with only 300 students.  At the start of the school year, Susy had 100 social media followers.  She gained 40 new followers in the first week of the school year, half that in the second week, and half of that in the third week.  Sarah only had 50 social media followers at the start of the year, but she gained 90 new followers the first week, a third of that in the second week, and a third of that in the third week.  After three weeks, how many social media followers did the girl with the most total followers have?
+Let's think step by step
+After one week, Susy has 100+40 = 140 followers.
+In the second week, Susy gains 40/2 = 20 new followers.
+In the third week, Susy gains 20/2 = 10 new followers.
+In total, Susy finishes the three weeks with 140+20+10 = 170 total followers.
+After one week, Sarah has 50+90 = 140 followers.
+After the second week, Sarah gains 90/3 = 30 followers.
+After the third week, Sarah gains 30/3 = 10 followers.
+So, Sarah finishes the three weeks with 140+30+10 = 180 total followers.
+Thus, Sarah is the girl with the most total followers with a total of 180.
+The answer is 180
+
+Question: Sam bought a dozen boxes, each with 30 highlighter pens inside, for $10 each box. He rearranged five of these boxes into packages of six highlighters each and sold them for $3 per package. He sold the rest of the highlighters separately at the rate of three pens for $2. How much profit did he make in total, in dollars?
+Let's think step by step
+Sam bought 12 boxes x $10 = $120 worth of highlighters.
+He bought 12 * 30 = 360 highlighters in total.
+Sam then took 5 boxes × 6 highlighters/box = 30 highlighters.
+He sold these boxes for 5 * $3 = $15
+After selling these 5 boxes there were 360 - 30 = 330 highlighters remaining.
+These form 330 / 3 = 110 groups of three pens.
+He sold each of these groups for $2 each, so made 110 * 2 = $220 from them.
+In total, then, he earned $220 + $15 = $235.
+Since his original cost was $120, he earned $235 - $120 = $115 in profit.
+The answer is 115
+
+Question: In a certain school, 2/3 of the male students like to play basketball, but only 1/5 of the female students like to play basketball. What percent of the population of the school do not like to play basketball if the ratio of the male to female students is 3:2 and there are 1000 students?
+Let's think step by step
+The students are divided into 3 + 2 = 5 parts where 3 parts are for males and 2 parts are for females.
+Each part represents 1000/5 = 200 students.
+So, there are 3 x 200 = 600 males.
+And there are 2 x 200 = 400 females.
+Hence, 600 x 2/3 = 400 males play basketball.
+And 400 x 1/5 = 80 females play basketball.
+A total of 400 + 80 = 480 students play basketball.
+Therefore, 1000 - 480 = 520 do not like to play basketball.
+The percentage of the school that do not like to play basketball is 520/1000 * 100 = 52
+The answer is 52
+
+
+Question:
+
+Tell me a story about Jon & Martha solving a maths problem?
+
+
+
+-----
+
+Original prompt answer:
+Jon and Martha were sitting in their math class, trying to solve the latest math problem. The teacher had given them a riddle: "I am three letters long, I start with M and end with N. What word could this be?" They both thought for a moment before Jon said, "It must be 'min' since it starts with an M." Martha agreed but then added, "But what about the last letter? It has to end in N."
+Jon quickly realized his mistake and exclaimed, "Oh right! The word is 'moon', as it also fits the criteria of starting with M and ending with N!" Martha smiled at Jon's quick thinking. They both felt a sense of accomplishment for solving this tricky math problem together.WebSocket closed by remote side
+
+
+Compressed Prompt answer:
+Jon and Martha were in their math class when they heard from their teacher, Mrs. Smith, that there was going to be an upcoming quiz on fractions the next day. The two friends decided to work together after school to prepare for it. They found a challenging question online: "A certain fruit basket contains 20 apples and 35 oranges. What is the population of the school if 48% of students like basketball, while 75% of them enjoy playing soccer?"
+
+Jon took out his notepad and started working on the problem first. He began by calculating the total number of fruits in the basket: 20 apples + 35 oranges = 55 fruits. Then he thought about how to approach the population question. "Martha, let's consider that we know there are 1000 students in our school," Jon said.
+
+"Okay, so if 48% of them like basketball and 75% enjoy playing soccer, then what percentage dislike both sports?" Martha asked curiously.
+
+Jon nodded and replied, "To find that out, we need to subtract the percentages from 100%. So, 100 - 48 (basketball) - 75 (soccer) = 17% of students dislike both sports."
+
+They continued their discussion about how many students like each sport. "Let's first find out the number of students who enjoy playing basketball," Martha suggested. She calculated: 1000 * 48% = 480 students.
+
+Jon then found the number of soccer enthusiasts by multiplying the total student count with the percentage enjoying soccer: 1000 * 75% = 750 students.
+
+Finally, they summed up all three percentages to find out how many students dislike both sports and have no preference for either game: 480 (basketball) + 750 (soccer) - 17% (both) = 963 students.
+
+After solving the problem, Jon and Martha were confident that they could tackle any fraction-related question in their upcoming quiz. They high-fived each other for a job well done before heading home to prepare for the rest of their subjects.WebSocket closed by remote side
+
+
+---
+Export orig_prompt="""I wanna co-create a story with you where you will start by starting the story and asking me a question about the desired direction of the story everytime you respond after saying a just few sentences of the continuing story. Please start by asking me what type of story I want to create and don't preface it with 'Sure thing', 'Of course' or other statements.
+
+Question: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?
+Let's think step by step
+Angelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total.
+For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total.
+Angelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days.
+However, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks.
+They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes.
+And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours.
+So Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total.
+They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75
+They will need to plan to study 4 days to allow for all the time they need.
+The answer is 4
+
+Question: Mark's basketball team scores 25 2 pointers, 8 3 pointers and 10 free throws.  Their opponents score double the 2 pointers but half the 3 pointers and free throws.  What's the total number of points scored by both teams added together?
+Let's think step by step
+Mark's team scores 25 2 pointers, meaning they scored 25*2= 50 points in 2 pointers.
+His team also scores 6 3 pointers, meaning they scored 8*3= 24 points in 3 pointers
+They scored 10 free throws, and free throws count as one point so they scored 10*1=10 points in free throws.
+All together his team scored 50+24+10= 84 points
+Mark's opponents scored double his team's number of 2 pointers, meaning they scored 50*2=100 points in 2 pointers.
+His opponents scored half his team's number of 3 pointers, meaning they scored 24/2= 12 points in 3 pointers.
+They also scored half Mark's team's points in free throws, meaning they scored 10/2=5 points in free throws.
+All together Mark's opponents scored 100+12+5=117 points
+The total score for the game is both team's scores added together, so it is 84+117=201 points
+The answer is 201
+
+Question: Bella has two times as many marbles as frisbees. She also has 20 more frisbees than deck cards. If she buys 2/5 times more of each item, what would be the total number of the items she will have if she currently has 60 marbles?
+Let's think step by step
+When Bella buys 2/5 times more marbles, she'll have increased the number of marbles by 2/5*60 = 24
+The total number of marbles she'll have is 60+24 = 84
+If Bella currently has 60 marbles, and she has two times as many marbles as frisbees, she has 60/2 = 30 frisbees.
+If Bella buys 2/5 times more frisbees, she'll have 2/5*30 = 12 more frisbees.
+The total number of frisbees she'll have will increase to 30+12 = 42
+Bella also has 20 more frisbees than deck cards, meaning she has 30-20 = 10 deck cards
+If she buys 2/5 times more deck cards, she'll have 2/5*10 = 4 more deck cards.
+The total number of deck cards she'll have is 10+4 = 14
+Together, Bella will have a total of 14+42+84 = 140 items
+The answer is 140
+
+Question: A group of 4 fruit baskets contains 9 apples, 15 oranges, and 14 bananas in the first three baskets and 2 less of each fruit in the fourth basket. How many fruits are there?
+Let's think step by step
+For the first three baskets, the number of apples and oranges in one basket is 9+15=24
+In total, together with bananas, the number of fruits in one basket is 24+14=38 for the first three baskets.
+Since there are three baskets each having 38 fruits, there are 3*38=114 fruits in the first three baskets.
+The number of apples in the fourth basket is 9-2=7
+There are also 15-2=13 oranges in the fourth basket
+The combined number of oranges and apples in the fourth basket is 13+7=20
+The fourth basket also contains 14-2=12 bananas.
+In total, the fourth basket has 20+12=32 fruits.
+The four baskets together have 32+114=146 fruits.
+The answer is 146
+
+Question: You can buy 4 apples or 1 watermelon for the same price. You bought 36 fruits evenly split between oranges, apples and watermelons, and the price of 1 orange is -zsh.50. How much does 1 apple cost if your total bill was ?
+Let's think step by step
+If 36 fruits were evenly split between 3 types of fruits, then I bought 36/3 = 12 units of each fruit
+If 1 orange costs -zsh.50 then 12 oranges will cost -zsh.50 * 12 = 
+If my total bill was  and I spent  on oranges then I spent  -  =  on the other 2 fruit types.
+Assuming the price of watermelon is W, and knowing that you can buy 4 apples for the same price and that the price of one apple is A, then 1W=4A
+If we know we bought 12 watermelons and 12 apples for , then we know that  = 12W + 12A
+Knowing that 1W=4A, then we can convert the above to  = 12(4A) + 12A
+ = 48A + 12A
+ = 60A
+Then we know the price of one apple (A) is /60= 
+The answer is 1
+
+Question: Susy goes to a large school with 800 students, while Sarah goes to a smaller school with only 300 students.  At the start of the school year, Susy had 100 social media followers.  She gained 40 new followers in the first week of the school year, half that in the second week, and half of that in the third week.  Sarah only had 50 social media followers at the start of the year, but she gained 90 new followers the first week, a third of that in the second week, and a third of that in the third week.  After three weeks, how many social media followers did the girl with the most total followers have?
+Let's think step by step
+After one week, Susy has 100+40 = 140 followers.
+In the second week, Susy gains 40/2 = 20 new followers.
+In the third week, Susy gains 20/2 = 10 new followers.
+In total, Susy finishes the three weeks with 140+20+10 = 170 total followers.
+After one week, Sarah has 50+90 = 140 followers.
+After the second week, Sarah gains 90/3 = 30 followers.
+After the third week, Sarah gains 30/3 = 10 followers.
+So, Sarah finishes the three weeks with 140+30+10 = 180 total followers.
+Thus, Sarah is the girl with the most total followers with a total of 180.
+The answer is 180
+
+Question: Sam bought a dozen boxes, each with 30 highlighter pens inside, for  each box. He rearranged five of these boxes into packages of six highlighters each and sold them for  per package. He sold the rest of the highlighters separately at the rate of three pens for . How much profit did he make in total, in dollars?
+Let's think step by step
+Sam bought 12 boxes x  =  worth of highlighters.
+He bought 12 * 30 = 360 highlighters in total.
+Sam then took 5 boxes × 6 highlighters/box = 30 highlighters.
+He sold these boxes for 5 *  = 
+After selling these 5 boxes there were 360 - 30 = 330 highlighters remaining.
+These form 330 / 3 = 110 groups of three pens.
+He sold each of these groups for  each, so made 110 * 2 =  from them.
+In total, then, he earned  +  = .
+Since his original cost was , he earned  -  =  in profit.
+The answer is 115
+
+Question: In a certain school, 2/3 of the male students like to play basketball, but only 1/5 of the female students like to play basketball. What percent of the population of the school do not like to play basketball if the ratio of the male to female students is 3:2 and there are 1000 students?
+Let's think step by step
+The students are divided into 3 + 2 = 5 parts where 3 parts are for males and 2 parts are for females.
+Each part represents 1000/5 = 200 students.
+So, there are 3 x 200 = 600 males.
+And there are 2 x 200 = 400 females.
+Hence, 600 x 2/3 = 400 males play basketball.
+And 400 x 1/5 = 80 females play basketball.
+A total of 400 + 80 = 480 students play basketball.
+Therefore, 1000 - 480 = 520 do not like to play basketball.
+The percentage of the school that do not like to play basketball is 520/1000 * 100 = 52
+The answer is 52
+
+Tell me a story about Jon & Martha solving a maths problem?"""
+
+==
+
+export compressed_prompt="""I wanna co-create a story with you where you will start by starting the story and asking me a question about the desired direction of the story everytime you respond after saying a just few sentences of the continuing story. Please start by asking me what type of story I want to create and don't preface it with 'Sure thing', 'Of course' or other statements.
+
+Question: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2ters of their textbook to study and 4ets toize. They figure out that they shouldate 3 hours to each chapter of their textbook and 1. hours forheet. If they plan to study no 4 hours each day, how many days they plan to study total the week if they take a 10- break every hour, include 3 1ute sn breaks day and 30 minutes forunch day?
+Lets think step step
+eloanie think they shouldate hours each of theters, 3 hours2ters6 hours total.
+For theets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4ets = 6 hours total.
+Angeloanie need to start with planning 12 hours to study, at 4 hours day, 12 /43 days.
+However, they need to include time for breaks andunch. Every hour they want to include a 0- break, so 12 total hours 10 minutes 10 minutes for breaks.
+They also want to include 310-ute sn breaks, 30 minutes0 minutes.
+And they want to include  minutesunch day, so 20 minutes for breaks3 minutes for snack breaksunch 10 minutes, or 10 / 60 minutes per hour = 3 extra hours.
+Soeloanie to plan 12 hours study + 3 hours of breaks =5 hours total.
+They to study no more than  hours day, 15 hours /4 hours day 35
+They will need to plan to study 4 days to allow for all the time they need.
+The answer is 4
+
+: Marks basketball team scores 25 2 pointers 83 pointers 10 throws.  Their opponents score double the 2 pointers but half the3 pointers and.  Whats the total of points scored by teams added together
+Lets think step step
+Marks team scores 52 pointers, meaning they scored 25*2=0 points in pointers.
+His team also scores 6 3 pointers, meaning they scored 8*3= 24 points in pointers
+They scored 10 throws, and free throws count as one point so they scored 0= points in throws
+All together team scored 50+0= 4 points
+Marks opponents scored double his teams number of pointers, meaning scored 50= points pointers
+isents scored halfs, 242= pointers
+They scored half Markss points, 0=
+ together 10++5=117 points
+The total score for the game is both teams scores together, so it is 84+7=1 points
+
+: Bella has two times as manybles as frises. She has 20 more than deck. If sheys 2/5 times more of each item, what would be the total of the items she will have she has 60bles
+Let step step
+Whenellays5 morebles, she'll have increased the numberbles by 25*0 = 24
+The ofbles she have is 04
+Ifella 0bles, and she has as manybles asises, she has 60/20es
+Ifellays 25 times morees, shell have 25*0 12 morees
+The total ofes she have will increase 022
+ella also has more than deck cards, she 000 cards
+If she5 more  cards
+ of have 
+Together,ella have 142+84140 items
+The 14
+: A of 4 fruit bets contains 9les 15, 14anas in the first threeets 2 less each the fourth. manyruits are there
+Let step step
+For the firstets, the ofles andanges in basket is 954
+In, together with, the ofruits in 8 forets
+Since areets each having, are 3ruits in
+The ofles the 7
+There are52=13anges in the fourth basket
+The combined ofanges andles in the is 13+7
+The basket also contains 14-22anas
+In, the basket 2ruits
+Theets together have 3+114ruits
+The
+
+: You can buy 4les 1on for. You bought 36ruits evenly betweenanges,les andelons, and the price of 1 orange is -zsh.50. much does1 cost if your total bill 
+Let step
+If 6ruits were between 3 ofruits, then I 36/32 units of each fruit
+If 1 orange costs0 then12anges -zsh
+If bill6 I spentanges then66 on other 2 fruit types
+uming the ofel is W, and knowing that you4les for the price and that of one is, then 1WA
+If we know we 2ons and les for0 then we know that02A
+ that1W, then we can convert the above to 2A) + 12A
+ 48A 
+ 
+Then we know the of one apple ( is -zsh=
+The is
+: Susy to a large school with 80 students, while a with .  At the the,y 100 mediaers  She 40ers first week of year, half that and half  Sarah only 0 the year, but ers, a a  After, many mediaers did the girl with the most totalers haveLet step
+Aftery 0+00ers
+In the,y 00
+Iny the0
+After 0+
+After Sarah/0
+So,10+0+00 totalers
+Th, Sarah most totalers with
+
+: Sam bought a dozen boxes, each 30l pens inside,  each. He reanged five of boxes into of six each . He the theters separately at the of three $. much make total,Let
+ bought boxes x00tersHe 2ters
+Sam then boxes6lters/box 0tersHe sold these for 5 $
+Afterelling these  boxes there 360ters
+ese0 0 of three
+ sold , so made *0 from
+, he $
+Since his1 he 
+
+: a certain, 2 the students like,/ like to play. What the population school basketball if the of the and studentsLet step
+The students are35 parts are
+ part
+, 3 males
+,00 males/
+
+fore, 1000 - 480 = 520 do not like to play basketball.
+The percentage of the school that do not like to play basketball is 520/1000 * 100 = 52
+The answer is 52
+
+Tell me a story about Jon & Martha solving a maths problem?"""
+

@@ -1,0 +1,5 @@
+.nav-folder.is-collapsed .nav-folder-title[data-path*="attachments"],
+.nav-folder-title[data-path*="attachments"],
+.nav-folder-children .nav-folder-title[data-path*="attachments"] {
+  display: none;
+}

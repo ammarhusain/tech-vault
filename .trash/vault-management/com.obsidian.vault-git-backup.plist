@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NetworkState</key>
+	<true/>
+	<key>Label</key>
+	<string>com.obsidian.vault-git-backup</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/ammarh/Library/Mobile Documents/iCloud~md~obsidian/Documents/second-brain/vault-management/git-backup.sh</string>
+	</array>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>8</integer>
+		<key>Minute</key>
+		<integer>5</integer>
+	</dict>
+	<key>StandardOutPath</key>
+	<string>/Users/ammarh/Library/Logs/LaunchControl/obsidian.vault-git-backup.stdout.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/ammarh/Library/Logs/LaunchControl/obsidian.vault-git-backup.stderr.log</string>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+---
+aliases: []
+tags:
+---
+# Meditations on Moloch
+
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article1.be68295a7e40.png)
+### Metadata
+Author: [[Scott Alexander]]
+Full Title: Meditations on Moloch
+Category: #readwise/articles
+URL: https://slatestarcodex.com/2014/07/30/meditations-on-moloch/
+Date Highlighted: [[2022-01-25-Tuesday]]
+
+## Highlights
+- Just as the course of a river is latent in a terrain even before the first rain falls on it – so the existence of Caesar’s Palace was latent in neurobiology, economics, and regulatory regimes even before it existed. The entrepreneur who built it was just filling in the ghostly lines with real concrete. So we have all this amazing technological and cognitive energy, the brilliance of the human species, wasted on reciting the lines written by poorly evolved cellular receptors and blind economics, like gods being ordered around by a moron.
+- Once one agent learns how to become more competitive by sacrificing a common value, all its competitors must also sacrifice that value or be outcompeted and replaced by the less scrupulous. Therefore, the system is likely to end up with everyone once again equally competitive, but the sacrificed value is gone forever. From a god’s-eye-view, the competitors know they will all be worse off if they defect, but from within the system, given insufficient coordination it’s impossible to avoid.
+- Bostrom makes an offhanded reference of the possibility of a dictatorless dystopia, one that every single citizen including the leadership hates but which nevertheless endures unconquered. It’s easy enough to imagine such a state. Imagine a country with two rules: first, every person must spend eight hours a day giving themselves strong electric shocks. Second, if anyone fails to follow a rule (including this one), or speaks out against it, or fails to enforce it, all citizens must unite to kill that person. Suppose these rules were well-enough established by tradition that everyone expected them to be enforced. So you shock yourself for eight hours a day, because you know if you don’t everyone else will kill you, because if they don’t, everyone else will kill them, and so on. Every single citizen hates the system, but for lack of a good coordination mechanism it endures. From a god’s-eye-view, we can optimize the system to “everyone agrees to stop doing this at once”, but no one within the system is able to effect the transition without great risk to themselves.
+- Any human with above room temperature IQ can design a utopia. The reason our current system isn’t a utopia is that it wasn’t designed by humans. Just as you can look at an arid terrain and determine what shape a river will one day take by assuming water will obey gravity, so you can look at a civilization and determine what shape its institutions will one day take by assuming people will obey incentives.
+- If you’ve never been to Vegas, it is really impressive. Skyscrapers and lights in every variety strange and beautiful all clustered together. And I had two thoughts, crystal clear: It is glorious that we can create something like this. It is shameful that we did.
+- Before we go on, there’s a slightly different form of multi-agent trap worth investigating. In this one, the competition is kept at bay by some outside force – usually social stigma. As a result, there’s not actually a race to the bottom – the system can continue functioning at a relatively high level – but it’s impossible to optimize and resources are consistently thrown away for no reason.
+- I know that “capitalists sometimes do bad things” isn’t exactly an original talking point. But I do want to stress how it’s not equivalent to “capitalists are greedy”. I mean, sometimes they are greedy. But other times they’re just in a sufficiently intense competition where anyone who doesn’t do it will be outcompeted and replaced by people who do. Business practices are set by Moloch, no one else has any choice in the matter.
+- The two active ingredients of government are laws plus violence – or more abstractly agreements plus enforcement mechanism. Many other things besides governments share these two active ingredients and so are able to act as coordination mechanisms to avoid traps
+- The libertarian-authoritarian axis on the Political Compass is a tradeoff between discoordination and tyranny. You can have everything perfectly coordinated by someone with a god’s-eye-view – but then you risk Stalin. And you can be totally free of all central authority – but then you’re stuck in every stupid multipolar trap Moloch can devise. The libertarians make a convincing argument for the one side, and the monarchists for the other, but I expect that like most tradeoffs we just have to hold our noses and admit it’s a really hard problem.
+- The limit of multipolar traps as technology approaches infinity is “very bad”. Multipolar traps are currently restrained by physical limitations, excess resources, utility maximization, and coordination.
+- People are using the contingent stupidity of our current government to replace lots of human interaction with mechanisms that cannot be coordinated even in principle. I totally understand why all these things are good right now when most of what our government does is stupid and unnecessary. But there is going to come a time when – after one too many bioweapon or nanotech or nuclear incidents – we, as a civilization, are going to wish we hadn’t established untraceable and unstoppable ways of selling products.
+- The question everyone has after reading Ginsberg is: what is Moloch?
+  My answer is: Moloch is exactly what the history books say he is. He is the god of child sacrifice, the fiery furnace into which you can toss your babies in exchange for victory in war.
+  He always and everywhere offers the same deal: throw what you love most into the flames, and I can grant you power.
+  As long as the offer’s open, it will be irresistible. So we need to close the offer. Only another god can kill Moloch. We have one on our side, but he needs our help. We should give it to him.
+

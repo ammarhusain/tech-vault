@@ -1,0 +1,29 @@
+---
+aliases: []
+tags: 
+---
+**[DayOne](dayone://open?date=2024-06-05)**
+
+# TOP-OF-MIND
+- #j595/journal 
+	- Did not do much work today. 
+	- Looked into LlamaIndex, AWS etc for [[Crawlspace]]
+# NOTES CREATED IN THE LAST WEEK
+``` dataview
+TABLE file.folder AS Folder, file.ctime As Created
+WHERE file.ctime >= date(substring(this.file.name,0,10)) - dur(1 week) 
+AND file.ctime < date(substring(this.file.name,0,10)) 
+AND file.folder != "Daily"
+SORT file.mtime ASCENDING
+```
+
+# NOTES MODIFIED IN THE LAST WEEK
+``` dataview
+TABLE file.folder AS Folder, file.mtime AS Modified, file.ctime AS Created
+WHERE file.mtime >= date(substring(this.file.name,0,10)) - dur(1 week)
+AND file.mtime < date(substring(this.file.name,0,10))
+AND file.ctime < date(substring(this.file.name,0,10)) - dur(1 week)
+AND file.folder != "Daily"
+SORT file.mtime ASCENDING
+```
+---

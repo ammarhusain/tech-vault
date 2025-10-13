@@ -1,7 +1,42 @@
+# Virtual environments
 .venv/
 *_venv/
-__pycache__
+venv/
+env/
+.env
+myrl_venv/
+.venv*/
+venv_*/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints and model files
 **/checkpoints/
-.DS_Store
-code-junkyard
 *.pth
+*.ckpt
+*.safetensors
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Large directories
+code-junkyard

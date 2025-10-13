@@ -1,0 +1,4 @@
+- [x] #goal learn how to make ceviche ✅ 2023-06-19
+	- [x] dice tomotaoes & cucumbers ✅ 2023-06-19
+- [ ] #goal_long_term  read through sushi book
+- [x]  get a japanese chefs knife ✅ 2023-06-19
