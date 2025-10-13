@@ -1,0 +1,4 @@
+
+objectives in life are
+
+

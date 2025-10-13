@@ -1,0 +1,589 @@
+- [[2024-12-11-Wednesday]] 11:02 PM — Synced 0 highlights from 0 documents.
+
+
+- [[2024-12-12-Thursday]] 11:21 PM — Synced 0 highlights from 0 documents.
+
+
+- [[2024-12-15-Sunday]] 11:50 PM — Synced 0 highlights from 0 documents.
+
+
+- [[2024-12-18-Wednesday]] 8:14 PM — Synced 0 highlights from 0 documents.
+
+
+- [[2024-12-26-Thursday]] 11:56 AM — Synced 0 highlights from 0 documents.
+
+
+- [[2025-01-03-Friday]] 8:02 AM — Synced 0 highlights from 0 documents.
+
+
+- [[2025-01-08-Wednesday]] 10:55 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from [[2-Focus-Areas/Readwise/Articles/Building Effective Agents]]
+
+
+- [[2025-01-10-Friday]] 2:24 PM — Synced 6 highlights from 1 document.
+    - 6 highlights from [[2-Focus-Areas/Readwise/Articles/101 Additional Advices]]
+
+
+- [[2025-01-11-Saturday]] 9:43 AM — Synced 478 highlights from 78 documents.
+    - 5 highlights from [[2-Focus-Areas/Readwise/Articles/Building Efficient Multiple Visual Domain Models With Multi-Path Neural Architecture Search]]
+    - 5 highlights from [[2-Focus-Areas/Readwise/Articles/Helping Robots Learn From Each Other]]
+    - 16 highlights from [[2-Focus-Areas/Readwise/Books/One Up on Wall Street by Peter Lynch]]
+    - 12 highlights from [[2-Focus-Areas/Readwise/Articles/The Art and Science of Spending Money]]
+    - 10 highlights from [[2-Focus-Areas/Readwise/Articles/40 Mind-Expanding Concepts (Winter 2022)]]
+    - 2 highlights from [[ACT-1: Transformer for Actions]]
+    - 1 highlights from [[2-Focus-Areas/Readwise/Articles/ChatGPT Plugins]]
+    - 5 highlights from [[PaLM-E: An Embodied Multimodal Language Model]]
+    - 4 highlights from [[Point-E: OpenAI's Open-Source Text-to-3d & Image-to-3d Diffusion Model]]
+    - 17 highlights from [[2-Focus-Areas/Readwise/Articles/How to Be Successful]]
+    - 9 highlights from [[2-Focus-Areas/Readwise/Articles/Productivity]]
+    - 1 highlights from [[2-Focus-Areas/Readwise/Articles/The Strength of Being Misunderstood]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/Practical Deep Learning for Coders]]
+    - 2 highlights from [[How to Fine Tune Stable Diffusion: How We Made the Text-to-Pokemon Model at Lambda]]
+    - 3 highlights from [[Update #47: AI Index Report Highlights and Text-to-3d]]
+    - 6 highlights from [[Neural Radiance Field (NeRF): A Gentle Introduction]]
+    - 2 highlights from [[How Does GPT Obtain Its Ability? Tracing Emergent Abilities of Language Models to Their Sources]]
+    - 5 highlights from [[DINOv2: State-of-the-Art Computer Vision Models With Self-Supervised Learning]]
+    - 8 highlights from [[Introducing Segment Anything: Working Toward the First Foundation Model for Image Segmentation]]
+    - 2 highlights from [[2-Focus-Areas/Readwise/Articles/NVIDIA unveils AI Foundations, its customizable Gen-AI cloud service]]
+    - 1 highlights from [[2-Focus-Areas/Readwise/Articles/Yes you should understand backprop]]
+    - 10 highlights from [[2-Focus-Areas/Readwise/Articles/Precision-Recall Curves in Python]]
+    - 5 highlights from [[0️⃣ Die With Zero: Net Fulfillment Over Net Worth]]
+    - 1 highlights from [[Google "We Have No Moat, and Neither Does OpenAI"]]
+    - 4 highlights from [[2-Focus-Areas/Readwise/Articles/DALL-E Mini Explained]]
+    - 2 highlights from [[Voyager: An Open-Ended Embodied Agent With Large Language Models]]
+    - 1 highlights from [[Guidance: A Cheat Code for Diffusion Models]]
+    - 1 highlights from [[2-Focus-Areas/Readwise/Articles/Training Diffusion Models With Reinforcement Learning]]
+    - 4 highlights from [[Google Research, 2022 & beyond: Robotics]]
+    - 3 highlights from [[DreamFusion: Text-to-3d Using 2D Diffusion]]
+    - 31 highlights from [[2-Focus-Areas/Readwise/Books/On Fear]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/On the Value of Not Reaching Your Goals]]
+    - 11 highlights from [[2-Focus-Areas/Readwise/Articles/Policy Gradient With PyTorch]]
+    - 4 highlights from [[2-Focus-Areas/Readwise/Articles/Autonomous Visual Information Seeking With Large Language Models]]
+    - 37 highlights from [[2-Focus-Areas/Readwise/Articles/Machine Learning Glossary]]
+    - 13 highlights from [[2-Focus-Areas/Readwise/Articles/A Recipe for Training Neural Networks]]
+    - 2 highlights from [[2-Focus-Areas/Readwise/Articles/The three-or-four-hours rule for getting creative work done]]
+    - 4 highlights from [[2-Focus-Areas/Readwise/Articles/Superlinear Returns]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/The Thin Line Between Bold and Reckless]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/Life Lessons From a 44 Year Old.]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/What I Wish Someone Had Told Me]]
+    - 9 highlights from [[2-Focus-Areas/Readwise/Articles/100 Little Ideas]]
+    - 5 highlights from [[2-Focus-Areas/Readwise/Articles/How to Be More Agentic]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/Amp It Up!]]
+    - 2 highlights from [[2-Focus-Areas/Readwise/Articles/Large Language Models Can Do Jaw-Dropping Things. But Nobody Knows Exactly Why.]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/Take Ownership of Your Future Self]]
+    - 1 highlights from [[2-Focus-Areas/Readwise/Articles/Lessons after a half-billion GPT tokens]]
+    - 7 highlights from [[2-Focus-Areas/Readwise/Articles/The Bitter Lesson]]
+    - 4 highlights from [[2-Focus-Areas/Readwise/Articles/101 Things I Would Tell My Self From 10 Years Ago]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/How to wander]]
+    - 2 highlights from [[2-Focus-Areas/Readwise/Articles/Frictionless Creativity]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/Harvard Law School]]
+    - 2 highlights from [[The Inner Scorecard: How Warren Buffett Mastered Life]]
+    - 8 highlights from [[2-Focus-Areas/Readwise/Articles/Some Things I Think]]
+    - 8 highlights from [[2-Focus-Areas/Readwise/Articles/Introducing Apple’s on-Device and Server Foundation Models]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/About Applebot]]
+    - 2 highlights from [[How to Apply to Y Combinator]]
+    - 2 highlights from [[2-Focus-Areas/Readwise/Articles/The Right Kind of Stubborn]]
+    - 20 highlights from [[2-Focus-Areas/Readwise/Books/A Promised Land]]
+    - 4 highlights from [[2-Focus-Areas/Readwise/Articles/Structured Procrastination]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/Repair and Remain]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/How to Become More Likable Using 9 Techniques From the World’s Most Charismatic People]]
+    - 10 highlights from [[2-Focus-Areas/Readwise/Articles/77 Lessons at 77]]
+    - 1 highlights from [['The Interview': Robert Putnam Knows Why You’re Lonely]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/There's no such thing as a fresh start]]
+    - 1 highlights from [[2-Focus-Areas/Readwise/Articles/How to Start Google]]
+    - 9 highlights from [[2-Focus-Areas/Readwise/Articles/The Art of Finishing]]
+    - 8 highlights from [[RLBench: The Robot Learning Benchmark & Learning Environment]]
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/vecDerivs]]
+    - 10 highlights from [[Rules of Machine Learning: Best Practices for ML Engineering]]
+    - 12 highlights from [[2-Focus-Areas/Readwise/Articles/Video-LLaMA_-_an_instruction-tuned_audio-visual_language_model_for_vide]]
+    - 1 highlights from [[2-Focus-Areas/Readwise/Articles/Interlinked]]
+    - 11 highlights from [[2-Focus-Areas/Readwise/Books/Wild Company]]
+    - 6 highlights from [[2-Focus-Areas/Readwise/Books/Cat's Cradle]]
+    - 7 highlights from [[2-Focus-Areas/Readwise/Articles/Airfoil]]
+    - 4 highlights from [[2-Focus-Areas/Readwise/Articles/Building Effective Agents]]
+    - 25 highlights from [[2-Focus-Areas/Readwise/Articles/101 Additional Advices]]
+    - 6 highlights from [[2-Focus-Areas/Readwise/Articles/The Most Important Question of Your Life]]
+
+
+- [[2025-01-13-Monday]] 4:57 PM — Synced 0 highlights from 0 documents.
+
+
+- [[2025-01-14-Tuesday]] 5:33 PM — Synced 0 highlights from 0 documents.
+
+
+- [[2025-01-16-Thursday]] 11:59 PM — Synced 0 highlights from 0 documents.
+
+
+- [[2025-01-22-Wednesday]] 9:37 AM — Synced 0 highlights from 0 documents.
+
+
+- [[2025-01-23-Thursday]] 6:35 PM — Synced 0 highlights from 0 documents.
+- [[2025-01-27-Monday]] 5:57 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from [[2-Focus-Areas/Readwise/Articles/Some Things I Think]]
+- [[2025-01-29-Wednesday]] 1:36 PM — Synced 0 highlights from 0 documents.
+- [[2025-01-30-Thursday]] 4:42 PM — Synced 3419 highlights from 345 documents.
+    - 5 highlights from [[Motivation Hacks]]
+    - 5 highlights from [[Charisma on Command]]
+    - 2 highlights from [[Radical Acceptance]]
+    - 5 highlights from [[Bigger Leaner Stronger]]
+    - 38 highlights from [[Man's Search for Meaning]]
+    - 14 highlights from [[The Wisdom of Life and Counsels and Maxims]]
+    - 3 highlights from [[Masters of Doom]]
+    - 32 highlights from [[Dreams From My Father]]
+    - 56 highlights from [[Overcoming Unwanted Intrusive Thoughts]]
+    - 35 highlights from [[Book Summary: Getting Things Done by David Allen | Sam Thomas Davies]]
+    - 23 highlights from [[99 Additional Bits of Unsolicited Advice]]
+    - 17 highlights from [[68 Bits of Unsolicited Advice]]
+    - 3 highlights from [[How to Actually Use What You Read With Readwise: Part 3]]
+    - 1 highlights from [[Lessons on How to Master the Art of Focus and Concentration From a Legendary Japanese Archer]]
+    - 33 highlights from [[On Managing Yourself]]
+    - 12 highlights from [[Project Management for the Unofficial Project Manager]]
+    - 49 highlights from [[Economics in One Lesson]]
+    - 8 highlights from [[What I Worked On]]
+    - 73 highlights from [[Counsels and Maxims]]
+    - 61 highlights from [[The Wisdom of Life]]
+    - 79 highlights from [[The Charisma Myth]]
+    - 7 highlights from [[A Deep Dive on End-to-End Encryption: How Do Public Key Encryption Systems Work? | Surveillance Self-Defense]]
+    - 4 highlights from [[Intro to Ethereum | ethereum.org]]
+    - 19 highlights from [[I Will Teach You to Be Rich]]
+    - 104 highlights from [[Principles: Bridgewater]]
+    - 11 highlights from [[Ethereum Whitepaper | ethereum.org]]
+    - 177 highlights from [[48 Laws of Power]]
+    - 48 highlights from [[For New Managers]]
+    - 18 highlights from [[The Present Age]]
+    - 35 highlights from [[Art of Seduction]]
+    - 20 highlights from [[Poor Economics]]
+    - 32 highlights from [[Cracking the PM Interview]]
+    - 30 highlights from [[The Moth Presents All These Wonders]]
+    - 1 highlights from [[The Prince]]
+    - 24 highlights from [[The Art of War]]
+    - 51 highlights from [[The Almanack of Naval Ravikant]]
+    - 6 highlights from [[Career Advice for Uniquely Ambitious People]]
+    - 1 highlights from [[I, Robot]]
+    - 6 highlights from [[The Google Workspace guide to productivity and wellbeing]]
+    - 6 highlights from [[Has AI Found a New Foundation?]]
+    - 2 highlights from [[Novelty and Heresy]]
+    - 8 highlights from [[A Deep Dive Into the Reformer]]
+    - 3 highlights from [[Camera; A GUIDE FOR THE ASPIRING PHOTOJOURNALIST]]
+    - 7 highlights from [[How to Work Hard]]
+    - 8 highlights from [[7 habits of highly effective people (summary)]]
+    - 6 highlights from [[5 Ways Smart People Sabotage Their Success]]
+    - 3 highlights from [[Gradient Update #4: OpenAI's Copilot and DeepMind on Reward and AGI]]
+    - 2 highlights from [[Towards a Conversational Agent That Can Chat About…Anything]]
+    - 4 highlights from [[Four Years in Startups]]
+    - 3 highlights from [[Why Do We Work Too Much?]]
+    - 16 highlights from [[20 Composition Techniques That Will Improve Your Photos]]
+    - 5 highlights from [[Book Summary: The War of Art by Steven Pressfield]]
+    - 12 highlights from [[Atomic Habits by James Clear: Summary With Notes & Highlights]]
+    - 3 highlights from [[What Happened to Yahoo]]
+    - 2 highlights from [[Towards Human-Centered Explainable AI: The Journey So Far]]
+    - 7 highlights from [[Arthur C. Clarke: Out of the Ego Chamber]]
+    - 13 highlights from [[The Art of Persuasion]]
+    - 17 highlights from [[The Elements of Style]]
+    - 9 highlights from [[The Making of a Manager by Julie Zhuo: Summary and Notes]]
+    - 24 highlights from [[Show Your Work!]]
+    - 17 highlights from [[OpenSea: The Reasonable Revolutionary | the Generalist]]
+    - 2 highlights from [[Investing in OpenSea - Andreessen Horowitz]]
+    - 6 highlights from [[50 Very Short Rules for a Good Life From the Stoics]]
+    - 5 highlights from [[The Art of Journaling: How to Start Journaling, Benefits of Journaling, and More · Magpie]]
+    - 1 highlights from [[NFTs That Think | the Generalist]]
+    - 5 highlights from [[Punks, Squiggles, and the Future of Generative Media]]
+    - 2 highlights from [[Busting the Career Ladder Myth | Zapier]]
+    - 2 highlights from [[It's Ok Not to Have Goals | Zapier]]
+    - 1 highlights from [[What Is It About Peter Thiel?]]
+    - 2 highlights from [[Revisiting “The 4-Hour Workweek”]]
+    - 10 highlights from [[Book Summary: Eat That Frog by Brian Tracy | Sam Thomas Davies]]
+    - 3 highlights from [[The Other Afghan Women]]
+    - 2 highlights from [[A Couple in Chicago]]
+    - 8 highlights from [[Karl Marx, Yesterday and Today]]
+    - 9 highlights from [[Verb Tenses in Academic Writing]]
+    - 8 highlights from [[The Clockwork Universe: Is Free Will an Illusion?]]
+    - 2 highlights from [[FinBERT: Financial Sentiment Analysis With BERT]]
+    - 3 highlights from [[The Two Friends Who Changed How We Think About How We Think]]
+    - 3 highlights from [[Book Summary: Eat That Frog by Brian Tracy | Sam Thomas Davies]]
+    - 3 highlights from [[The Art of Being Indispensable at Work | Book Summary | Accel5]]
+    - 2 highlights from [[Crypto Cities]]
+    - 4 highlights from [[Do Things That Don't Scale]]
+    - 4 highlights from [[What's on Deck for on Deck?]]
+    - 3 highlights from [[The Long Game | Book Summary | Accel5]]
+    - 2 highlights from [[How to Become a Better Writer by Becoming a Better Noticer]]
+    - 7 highlights from [[Eat That Frog by Brian Tracy]]
+    - 1 highlights from [[Book Summary: Deep Work by Cal Newport | Sam Thomas Davies]]
+    - 2 highlights from [[Gradient Update #3: New in Reinforcement Learning - Chip Design and Transformers]]
+    - 7 highlights from [[Strong AI Requires Autonomous Building of Composable Models]]
+    - 13 highlights from [[The Infinite Machine]]
+    - 62 highlights from [[The Art of Being Right]]
+    - 49 highlights from [[Mastery]]
+    - 2 highlights from [[The Fed’s Doomsday Prophet Has a Dire Warning About Where We’re Headed]]
+    - 39 highlights from [[Four Thousand Weeks]]
+    - 1 highlights from [[The Challenges of Regulating Cryptocurrency]]
+    - 1 highlights from [[The Ownership Economy: Crypto & the Next Frontier of Consumer Software]]
+    - 2 highlights from [[Pumpers, Dumpers, and Shills: The Skycoin Saga]]
+    - 3 highlights from [[Labrador Addresses Critical Need With Deceptively Simple Home Robot]]
+    - 2 highlights from [[Sort by Controversial]]
+    - 1 highlights from [[Slate Star Codex and Silicon Valley’s War Against the Media]]
+    - 2 highlights from [[Book Review: Which Country Has the World's Best Health Care?]]
+    - 12 highlights from [[Meditations on Moloch]]
+    - 1 highlights from [[The Changing World Order: The New Paradigm | LinkedIn]]
+    - 4 highlights from [[Sam Altman’s Manifest Destiny]]
+    - 5 highlights from [[My First Impressions of Web3]]
+    - 1 highlights from [[Career Advice]]
+    - 3 highlights from [[Google Research: Themes From 2021 and Beyond]]
+    - 11 highlights from [[What Makes Work Meaningful — Or Meaningless]]
+    - 3 highlights from [[Reality Has a Surprising Amount of Detail]]
+    - 3 highlights from [[Introducing Pathways: A Next-Generation AI Architecture]]
+    - 2 highlights from [[Introducing Model Search: An Open Source Platform for Finding Optimal ML Models]]
+    - 2 highlights from [[Competitive Programming With AlphaCode]]
+    - 5 highlights from [[What It Takes to Climb the World’s Most Forbidding Cliffs]]
+    - 2 highlights from [[Deep Learning Is Hitting a Wall]]
+    - 3 highlights from [[Marvin Minsky’s Vision of the Future]]
+    - 1 highlights from [[Introducing Text and Code Embeddings in the OpenAI API]]
+    - 2 highlights from [[What Google Search Isn’t Showing You]]
+    - 2 highlights from [[Running the Random Data Through a SHA256 Hash Function]]
+    - 1 highlights from [[Running the Random Data Through a SHA256 Hash Function]]
+    - 1 highlights from [[Running the Random Data Through a SHA256 Hash Function]]
+    - 1 highlights from [[How I Attained Persistent Self-Love, Or, I Demand Deep Okayness for Everyone]]
+    - 4 highlights from [[The PARA Method: A Universal System for Organizing Digital Information - Forte Labs]]
+    - 2 highlights from [[P.A.R.A. II: Operations Manual – Praxis]]
+    - 1 highlights from [[P.A.R.A. III: Building an Idea Generator]]
+    - 1 highlights from [[What's the Best, Most Effective Way to Take Notes?]]
+    - 1 highlights from [[Socratic Models: Composing Zero-Shot Multimodal Reasoning With Language]]
+    - 3 highlights from [[Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance]]
+    - 2 highlights from [[The Complicated Legacy of Stewart Brand’s “Whole Earth Catalog”]]
+    - 3 highlights from [[Feature Visualization]]
+    - 2 highlights from [[A Visual History of Interpretation for Image Recognition]]
+    - 5 highlights from [[How to be an Amazing Product Manager at Google and Change the World]]
+    - 34 highlights from [[Long Story Short]]
+    - 5 highlights from [[Anthem]]
+    - 11 highlights from [[103 Bits of Advice I Wish I Had Known]]
+    - 2 highlights from [[The Top Idea in Your Mind]]
+    - 1 highlights from [[Aligning Language Models to Follow Instructions]]
+    - 1 highlights from [[A Guide to Thesis Writing That Is a Guide to Life]]
+    - 2 highlights from [[Feynman]]
+    - 3 highlights from [[On Needing to Find Something to Worry About — Why We Always Worry for No Reason - The School of Life]]
+    - 2 highlights from [[Gradient Update #26: Facial Recognition in the Real World and Large Language Model Advances]]
+    - 4 highlights from [[The Myth of Sisyphus]]
+    - 1 highlights from [[Gradient Update #24: Robotaxis in Beijing and a Multi-Task Visual Language Model]]
+    - 3 highlights from [[Gradient Update #23: DALL-E 2 and Grounding Language in Robotic Affordances]]
+    - 3 highlights from [[The Einstein Principle: Accomplish More by Doing Less - Study Hacks - Cal Newport]]
+    - 1 highlights from [[The Art of the Finish: How to Go From Busy to Accomplished | Scott H Young]]
+    - 6 highlights from [[Materialism Alone Cannot Explain the Riddle of Consciousness | Aeon Essays]]
+    - 2 highlights from [[Learning From Human Preferences]]
+    - 4 highlights from [[How I Attained Persistent Self-Love, Or, I Demand Deep Okayness for Everyone]]
+    - 5 highlights from [[The Concise Laws of Human Nature]]
+    - 1 highlights from [[Tails - Install Tails From macOS]]
+    - 5 highlights from [[OpenAI and the Road to Text-Guided Image Generation: DALL·E, CLIP, GLIDE, DALL·E 2]]
+    - 10 highlights from [[Money Is the Megaphone of Identity - More to That]]
+    - 11 highlights from [[Logicomix - An Epic Search for Truth]]
+    - 63 highlights from [[Build]]
+    - 3 highlights from [[Lifestyles]]
+    - 3 highlights from [[How AI Creates Photorealistic Images From Text]]
+    - 2 highlights from [[Imagen: Text-to-Image Diffusion Models]]
+    - 3 highlights from [[Parti: Pathways Autoregressive Text-to-Image Model]]
+    - 6 highlights from [[Envy Is the Cancer of the Soul - More to That]]
+    - 3 highlights from [[The Survival Instinct of Money - More to That]]
+    - 2 highlights from [[Pursue Mastery, Not Status - More to That]]
+    - 5 highlights from [[How to Read Philosophy | Psyche Guides]]
+    - 5 highlights from [[Five Lessons From History]]
+    - 1 highlights from [[2022-8-7 arXiv Roundup: Adam and Sharpness, Recursive Self-Improvement for Coding, Training and Model Tweaks]]
+    - 2 highlights from [[How to Nurture a Personal Library | Psyche Guides]]
+    - 3 highlights from [[Your Career Is Just One-Eighth of Your Life]]
+    - 1 highlights from [[Is Web3 Bullshit?]]
+    - 2 highlights from [[Are Successful Authors Creative Geniuses or Literary Labourers?]]
+    - 7 highlights from [[Why We Doubt Ourselves - More to That]]
+    - 1 highlights from [[How to Solve Moral Problems With Formal Logic and Probability | Aeon Essays]]
+    - 6 highlights from [[The Riddle of Rest]]
+    - 8 highlights from [[The Illustrated Transformer]]
+    - 6 highlights from [[Language Modelling at Scale: Gopher, Ethical Considerations, and Retrieval]]
+    - 3 highlights from [[An Empirical Analysis of Compute-Optimal Large Language Model Training]]
+    - 1 highlights from [[Last Week in AI #196: OpenAI's ChatGPT Takes the World of AI by Storm, RealPage Rent-Setting Under DOJ Investigation, SF Debates Police Use of Lethal Robots, and More!]]
+    - 20 highlights from [[Inspired]]
+    - 59 highlights from [[Inspired - paperback]]
+    - 5 highlights from [[RT-1: Robotics Transformer for Real-World Control at Scale]]
+    - 9 highlights from [[The Illustrated Stable Diffusion]]
+    - 3 highlights from [[Talking to Robots in Real Time]]
+    - 10 highlights from [[34 Mistakes on the Way to 34 Years Old]]
+    - 7 highlights from [[Personal Branding 101]]
+    - 5 highlights from [[How to Change Your Self-Limiting Beliefs]]
+    - 3 highlights from [[The Magic of Thinking Big (David Swartz) - Book Discussion]]
+    - 4 highlights from [[Human Preferences]]
+    - 3 highlights from [[Thankfully, Life Is Full of Problems]]
+    - 5 highlights from [[Robots That Write Their Own Code]]
+    - 5 highlights from [[Can Robots Follow Instructions for New Tasks?]]
+    - 1 highlights from [[Multi-Task Robotic Reinforcement Learning at Scale]]
+    - 3 highlights from [[Improving Vision Transformer Efficiency and Accuracy by Learning to Tokenize]]
+    - 1 highlights from [[Scalable Deep Reinforcement Learning for Robotic Manipulation]]
+    - 13 highlights from [[Illustrating Reinforcement Learning From Human Feedback]]
+    - 4 highlights from [[Aligning Language Models to Follow Instructions]]
+    - 13 highlights from [[The Annotated Diffusion Model]]
+    - 3 highlights from [[AI Learns to Write Computer Code in ‘Stunning’ Advance]]
+    - 12 highlights from [[Stable Diffusion With 🧨 Diffusers]]
+    - 27 highlights from [[12 Rules for Life by Jordan Peterson]]
+    - 29 highlights from [[How to Win Friends and Influence People by Dale Carnegie]]
+    - 3 highlights from [[Speculation: A Game You Can’t Win]]
+    - 3 highlights from [[The Release Ratio: How to Make Use of Everything You Know]]
+    - 2 highlights from [[Get the Most Out of What You Read With Daniel Doyon, Co-Founder of Readwise]]
+    - 4 highlights from [[The Art of Note-Making]]
+    - 3 highlights from [[E-Mail From Bill]]
+    - 3 highlights from [[Bytes and Chips]]
+    - 1 highlights from [[Albert Einstein, Scientist and Mob Idol]]
+    - 2 highlights from [[Scientist and Mob Idol—II]]
+    - 4 highlights from [[Not Caring Lets Us Perform Better]]
+    - 1 highlights from [[4 Ways to Master Your Productive Flow]]
+    - 1 highlights from [[The Finality of Everything]]
+    - 18 highlights from [[Deep Work by Cal Newport]]
+    - 6 highlights from [[How to Beat Procrastination]]
+    - 5 highlights from [[Building Efficient Multiple Visual Domain Models With Multi-Path Neural Architecture Search]]
+    - 5 highlights from [[Helping Robots Learn From Each Other]]
+    - 16 highlights from [[One Up on Wall Street by Peter Lynch]]
+    - 24 highlights from [[Speed Reading]]
+    - 2 highlights from [[Stacking Our Way to More General Robots]]
+    - 78 highlights from [[The Intelligent Investor by Benjamin Graham]]
+    - 7 highlights from [[Prediction Markets: Can Betting Be Good for the World?]]
+    - 13 highlights from [[I Meditated 15 Hours a Day for 6 Months Straight...]]
+    - 4 highlights from [[Learn the Art of Journaling and Archive Your Life]]
+    - 18 highlights from [[How to Take Smart Notes by Sönke Ahrens]]
+    - 12 highlights from [[The Art and Science of Spending Money]]
+    - 10 highlights from [[40 Mind-Expanding Concepts (Winter 2022)]]
+    - 12 highlights from [[Building a Second Brain by Tiago Forte]]
+    - 7 highlights from [[How Do Odds Work in Betting?]]
+    - 5 highlights from [[Book Value Defined: Meaning, Formula, and Examples]]
+    - 6 highlights from [[Book Value vs. Market Value: What's the Difference?]]
+    - 2 highlights from [[Whispers of A.I.’s Modular Future]]
+    - 6 highlights from [[Foundation Models]]
+    - 4 highlights from [[The Antidote to Envy]]
+    - 7 highlights from [[ChatGPT Is a Blurry JPEG of the Web]]
+    - 4 highlights from [[Opinion | Noam Chomsky: The False Promise of ChatGPT - The New York Times]]
+    - 1 highlights from [[ChatGPT: Optimizing Language Models for Dialogue]]
+    - 1 highlights from [[GTD®: 6 Horizons of Focus by David Allen]]
+    - 18 highlights from [[Quiet]]
+    - 1 highlights from [[How to Read a Book by Mortimer J. Adler and Charles Van Doren]]
+    - 2 highlights from [[ACT-1: Transformer for Actions]]
+    - 1 highlights from [[ChatGPT Plugins]]
+    - 5 highlights from [[PaLM-E: An Embodied Multimodal Language Model]]
+    - 4 highlights from [[Point-E: OpenAI's Open-Source Text-to-3d & Image-to-3d Diffusion Model]]
+    - 17 highlights from [[How to Be Successful]]
+    - 9 highlights from [[Productivity]]
+    - 1 highlights from [[The Strength of Being Misunderstood]]
+    - 3 highlights from [[Practical Deep Learning for Coders]]
+    - 2 highlights from [[How to Fine Tune Stable Diffusion: How We Made the Text-to-Pokemon Model at Lambda]]
+    - 3 highlights from [[Update #47: AI Index Report Highlights and Text-to-3d]]
+    - 6 highlights from [[Neural Radiance Field (NeRF): A Gentle Introduction]]
+    - 2 highlights from [[How Does GPT Obtain Its Ability? Tracing Emergent Abilities of Language Models to Their Sources]]
+    - 5 highlights from [[DINOv2: State-of-the-Art Computer Vision Models With Self-Supervised Learning]]
+    - 8 highlights from [[Introducing Segment Anything: Working Toward the First Foundation Model for Image Segmentation]]
+    - 2 highlights from [[NVIDIA unveils AI Foundations, its customizable Gen-AI cloud service]]
+    - 1 highlights from [[Yes you should understand backprop]]
+    - 10 highlights from [[Precision-Recall Curves in Python]]
+    - 5 highlights from [[0️⃣ Die With Zero: Net Fulfillment Over Net Worth]]
+    - 1 highlights from [[Google "We Have No Moat, and Neither Does OpenAI"]]
+    - 4 highlights from [[DALL-E Mini Explained]]
+    - 2 highlights from [[Voyager: An Open-Ended Embodied Agent With Large Language Models]]
+    - 1 highlights from [[Guidance: A Cheat Code for Diffusion Models]]
+    - 1 highlights from [[Training Diffusion Models With Reinforcement Learning]]
+    - 4 highlights from [[Google Research, 2022 & beyond: Robotics]]
+    - 3 highlights from [[DreamFusion: Text-to-3d Using 2D Diffusion]]
+    - 31 highlights from [[On Fear]]
+    - 3 highlights from [[On the Value of Not Reaching Your Goals]]
+    - 3 highlights from [[This Meditation Exercise Builds Mental Muscle and Cures Procrastination]]
+    - 240 highlights from [[The Story of Philosophy]]
+    - 5 highlights from [[100 Tips for a Better Life]]
+    - 11 highlights from [[Policy Gradient With PyTorch]]
+    - 2 highlights from [[Burnout Is the Echo of Self-Judgment]]
+    - 2 highlights from [[REI Co-op]]
+    - 5 highlights from [[3 Questions to Get Unstuck and Start Making Progress]]
+    - 3 highlights from [[Respect and Admiration]]
+    - 3 highlights from [[Medusa: Simple Framework for Accelerating LLM Generation With Multiple Decoding Heads]]
+    - 6 highlights from [[Making LLMs Even More Accessible With Bitsandbytes, 4-Bit Quantization and QLoRA]]
+    - 1 highlights from [[Career Advice]]
+    - 1 highlights from [[Speculation: A Game You Can’t Win]]
+    - 4 highlights from [[Autonomous Visual Information Seeking With Large Language Models]]
+    - 37 highlights from [[Machine Learning Glossary]]
+    - 13 highlights from [[A Recipe for Training Neural Networks]]
+    - 7 highlights from [[The Road to Self-Renewal]]
+    - 1 highlights from [[How We Spend Our Days Is How We Spend Our Lives: Annie Dillard on Choosing Presence Over Productivity]]
+    - 2 highlights from [[The three-or-four-hours rule for getting creative work done]]
+    - 4 highlights from [[Superlinear Returns]]
+    - 3 highlights from [[The Thin Line Between Bold and Reckless]]
+    - 3 highlights from [[The Dubious Rise of Impostor Syndrome]]
+    - 3 highlights from [[Life Lessons From a 44 Year Old.]]
+    - 3 highlights from [[What I Wish Someone Had Told Me]]
+    - 9 highlights from [[100 Little Ideas]]
+    - 5 highlights from [[How to Be More Agentic]]
+    - 3 highlights from [[Amp It Up!]]
+    - 2 highlights from [[Large Language Models Can Do Jaw-Dropping Things. But Nobody Knows Exactly Why.]]
+    - 3 highlights from [[Take Ownership of Your Future Self]]
+    - 1 highlights from [[Lessons after a half-billion GPT tokens]]
+    - 7 highlights from [[The Bitter Lesson]]
+    - 4 highlights from [[101 Things I Would Tell My Self From 10 Years Ago]]
+    - 3 highlights from [[How to wander]]
+    - 2 highlights from [[Frictionless Creativity]]
+    - 3 highlights from [[Harvard Law School]]
+    - 2 highlights from [[The Inner Scorecard: How Warren Buffett Mastered Life]]
+    - 1 highlights from [[The Trouble With Transcendence]]
+    - 8 highlights from [[Introducing Apple’s on-Device and Server Foundation Models]]
+    - 3 highlights from [[About Applebot]]
+    - 2 highlights from [[How to Apply to Y Combinator | Y Combinator]]
+    - 7 highlights from [[50 Things I Know]]
+    - 5 highlights from [[The Science of Having a Great Conversation]]
+    - 2 highlights from [[Opinion | The Cost of Paying Attention - The New York Times]]
+    - 2 highlights from [[The Right Kind of Stubborn]]
+    - 20 highlights from [[A Promised Land]]
+    - 4 highlights from [[Structured Procrastination]]
+    - 3 highlights from [[Repair and Remain]]
+    - 3 highlights from [[How to Become More Likable Using 9 Techniques From the World’s Most Charismatic People]]
+    - 10 highlights from [[77 Lessons at 77]]
+    - 1 highlights from [['The Interview': Robert Putnam Knows Why You’re Lonely]]
+    - 3 highlights from [[There's no such thing as a fresh start]]
+    - 1 highlights from [[How to Start Google]]
+    - 3 highlights from [[Do Quests, Not Goals]]
+    - 9 highlights from [[The Art of Finishing]]
+    - 4 highlights from [[Are You Afraid to Identify as a Leader?]]
+    - 9 highlights from [[Inner Monologue: Embodied Reasoning through Planning with Language Models]]
+    - 12 highlights from [[Do As I Can, Not As I Say: Grounding Language in Robotic Affordances]]
+    - 6 highlights from [[The_foundation_of_personal_productivity_-_Engineering_Newsletter]]
+    - 3 highlights from [[BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning]]
+    - 5 highlights from [[CLIPORT: What and Where Pathways for Robotic Manipulation]]
+    - 5 highlights from [[Transporter Networks: Rearranging the Visual World for Robotic Manipulation]]
+    - 13 highlights from [[ALFRED A Benchmark for Interpreting Grounded Instructions for Everyday Tasks]]
+    - 9 highlights from [[BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments]]
+    - 8 highlights from [[Rearrangement: A Challenge for Embodied AI]]
+    - 9 highlights from [[Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning]]
+    - 9 highlights from [[Benchmarking in Manipulation Research Using the Yale–CMU–Berkeley Object and Model Set]]
+    - 8 highlights from [[RLBench: The Robot Learning Benchmark & Learning Environment]]
+    - 3 highlights from [[Interactive Language: Talking to Robots in Real Time]]
+    - 3 highlights from [[vecDerivs]]
+    - 10 highlights from [[Rules of Machine Learning: Best Practices for ML Engineering]]
+    - 5 highlights from [[This is Water by David Foster Wallace (Full Transcript)]]
+    - 12 highlights from [[Video-LLaMA_-_an_instruction-tuned_audio-visual_language_model_for_vide]]
+    - 1 highlights from [[Interlinked]]
+    - 11 highlights from [[Wild Company]]
+    - 6 highlights from [[Cat's Cradle]]
+    - 59 highlights from [[Highlighted Quotes]]
+    - 7 highlights from [[Airfoil]]
+    - 7 highlights from [[Animal Farm]]
+    - 4 highlights from [[Ubi Sunt]]
+    - 4 highlights from [[Building Effective Agents]]
+    - 25 highlights from [[101 Additional Advices]]
+    - 6 highlights from [[The Most Important Question of Your Life]]
+    - 11 highlights from [[Some Things I Think]]
+- [[2025-02-03-Monday]] 5:16 PM — Synced 0 highlights from 0 documents.
+- [[2025-02-06-Thursday]] 8:48 AM — Synced 0 highlights from 0 documents.
+- [[2025-02-08-Saturday]] 10:37 PM — Synced 0 highlights from 0 documents.
+- [[2025-02-11-Tuesday]] 1:57 PM — Synced 0 highlights from 0 documents.
+- [[2025-02-13-Thursday]] 11:44 AM — Synced 0 highlights from 0 documents.
+- [[2025-02-14-Friday]] 5:37 PM — Synced 0 highlights from 0 documents.
+- [[2025-02-17-Monday]] 10:17 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from [[Highlighted Quotes]]
+- [[2025-02-19-Wednesday]] 2:11 PM — Synced 0 highlights from 0 documents.
+- [[2025-02-24-Monday]] 11:40 AM — Synced 0 highlights from 0 documents.
+- [[2025-02-26-Wednesday]] 2:28 PM — Synced 0 highlights from 0 documents.
+- [[2025-03-05-Wednesday]] 7:41 PM — Synced 11 highlights from 3 documents.
+    - 8 highlights from [[The Short Case for Nvidia Stock]]
+    - 1 highlights from [[Illustrating Reinforcement Learning From Human Feedback]]
+    - 2 highlights from [[A New Generation of AIs: Claude 3.7 and Grok 3]]
+- [[2025-03-07-Friday]] 12:59 PM — Synced 0 highlights from 0 documents.
+- [[2025-03-08-Saturday]] 7:47 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from [[The Short Case for Nvidia Stock]]
+- [[2025-03-11-Tuesday]] 10:00 AM — Synced 8 highlights from 4 documents.
+    - 1 highlights from [[The Confident Conversationalist.pdf]]
+    - 2 highlights from [[Write to Escape Your Default Setting]]
+    - 1 highlights from [[Grow Inherently, Not Apparently]]
+    - 4 highlights from [[Pure Independence]]
+- [[2025-03-18-Tuesday]] 6:30 AM — Synced 71 highlights from 8 documents.
+    - 1 highlights from [[Speed Reading]]
+    - 11 highlights from [[Million Dollar Weekend]]
+    - 39 highlights from [[Poor Economics]]
+    - 9 highlights from [[The Making of Prince of Persia]]
+    - 1 highlights from [[Salt, Fat, Acid, Heat]]
+    - 2 highlights from [[The Confident Conversationalist.pdf]]
+    - 5 highlights from [[How I Think About LLM Prompt Engineering]]
+    - 3 highlights from [[Toxic Preconditions]]
+- [[2025-03-21-Friday]] 10:31 AM — Synced 3 highlights from 2 documents.
+    - 1 highlights from [[Here’s How I Use LLMs to Help Me Write Code]]
+    - 2 highlights from [[Salt, Fat, Acid, Heat]]
+- [[2025-03-25-Tuesday]] 1:21 PM — Synced 14 highlights from 2 documents.
+    - 11 highlights from [[Agents]]
+    - 3 highlights from [[Why You Fail At Almost Everything You Do]]
+- [[2025-03-26-Wednesday]] 2:15 PM — Synced 5 highlights from 1 document.
+    - 5 highlights from [[Salt, Fat, Acid, Heat]]
+- [[2025-03-28-Friday]] 10:52 AM — Synced 0 highlights from 0 documents.
+- [[2025-03-29-Saturday]] 10:52 AM — Synced 0 highlights from 0 documents.
+- [[2025-04-01-Tuesday]] 2:46 PM — Synced 4 highlights from 1 document.
+    - 4 highlights from [[Aligning Language Models to Follow Instructions]]
+- [[2025-04-06-Sunday]] 6:46 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from [[Poor Economics]]
+- [[2025-04-19-Saturday]] 12:31 PM — Synced 0 highlights from 0 documents.
+- [[2025-04-22-Tuesday]] 5:58 AM — Synced 0 highlights from 0 documents.
+- [[2025-04-23-Wednesday]] 8:22 AM — Synced 0 highlights from 0 documents.
+- [[2025-04-25-Friday]] 11:30 AM — Synced 0 highlights from 0 documents.
+- [[2025-04-27-Sunday]] 12:46 AM — Synced 0 highlights from 0 documents.
+- [[2025-04-28-Monday]] 5:54 AM — Synced 0 highlights from 0 documents.
+- [[2025-04-29-Tuesday]] 6:14 AM — Synced 0 highlights from 0 documents.
+- [[2025-05-02-Friday]] 5:36 PM — Synced 0 highlights from 0 documents.
+- [[2025-05-04-Sunday]] 7:32 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from [[Impact, Agency, and Taste]]
+- [[2025-05-05-Monday]] 11:15 AM — Synced 2 highlights from 1 document.
+    - 2 highlights from [[Impact, Agency, and Taste]]
+- [[2025-05-08-Thursday]] 10:11 AM — Synced 0 highlights from 0 documents.
+- [[2025-05-10-Saturday]] 10:03 PM — Synced 0 highlights from 0 documents.
+- [[2025-05-13-Tuesday]] 1:00 PM — Synced 0 highlights from 0 documents.
+- [[2025-05-16-Friday]] 6:47 AM — Synced 0 highlights from 0 documents.
+- [[2025-05-18-Sunday]] 5:32 AM — Synced 0 highlights from 0 documents.
+- [[2025-05-19-Monday]] 5:32 AM — Synced 0 highlights from 0 documents.
+- [[2025-05-21-Wednesday]] 1:22 PM — Synced 0 highlights from 0 documents.
+- [[2025-05-27-Tuesday]] 3:59 PM — Synced 0 highlights from 0 documents.
+- [[2025-06-05-Thursday]] 2:51 PM — Synced 0 highlights from 0 documents.
+- [[2025-06-07-Saturday]] 6:49 AM — Synced 0 highlights from 0 documents.
+- [[2025-06-09-Monday]] 5:01 PM — Synced 0 highlights from 0 documents.
+- [[2025-06-12-Thursday]] 3:32 AM — Synced 0 highlights from 0 documents.
+- [[2025-06-15-Sunday]] 9:58 PM — Synced 9 highlights from 2 documents.
+    - 3 highlights from [[If You Are Useful, It Doesn’t Mean You Are Valued]]
+    - 6 highlights from [[Salt, Fat, Acid, Heat]]
+- [[2025-06-18-Wednesday]] 6:24 PM — Synced 7 highlights from 3 documents.
+    - 2 highlights from [[Smart People Don't Chase Goals; They Create Limits]]
+    - 1 highlights from [[The Gentle Singularity]]
+    - 4 highlights from [[How to Mark a Book]]
+- [[2025-06-24-Tuesday]] 2:00 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from [[Salt, Fat, Acid, Heat]]
+- [[2025-06-26-Thursday]] 5:09 PM — Synced 0 highlights from 0 documents.
+- [[2025-07-01-Tuesday]] 10:02 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from [[Salt, Fat, Acid, Heat]]
+- [[2025-07-03-Thursday]] 12:47 AM — Synced 0 highlights from 0 documents.
+- [[2025-07-07-Monday]] 1:13 PM — Synced 0 highlights from 0 documents.
+- [[2025-07-10-Thursday]] 10:13 AM — Synced 5 highlights from 2 documents.
+    - 4 highlights from [[I Deleted My Second Brain]]
+    - 1 highlights from [[21 Observations From People Watching]]
+- [[2025-07-13-Sunday]] 1:58 PM — Synced 2 highlights from 1 document.
+    - 2 highlights from [[21 Observations From People Watching]]
+- [[2025-07-16-Wednesday]] 2:02 PM — Synced 9 highlights from 4 documents.
+    - 2 highlights from [[Flounder Mode]]
+    - 3 highlights from [[Being Too Ambitious Is a Clever Form of Self-Sabotage]]
+    - 1 highlights from [[The Urgency of Interpretability]]
+    - 3 highlights from [[How I have run major projects]]
+- [[2025-07-22-Tuesday]] 11:04 AM — Synced 0 highlights from 0 documents.
+- [[2025-07-24-Thursday]] 5:56 PM — Synced 0 highlights from 0 documents.
+- [[2025-07-25-Friday]] 6:00 PM — Synced 0 highlights from 0 documents.
+- [[2025-07-27-Sunday]] 4:58 AM — Synced 4 highlights from 1 document.
+    - 4 highlights from [[Salt, Fat, Acid, Heat]]
+- [[2025-07-30-Wednesday]] 8:38 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from [[Salt, Fat, Acid, Heat]]
+- [[2025-08-01-Friday]] 5:02 AM — Synced 0 highlights from 0 documents.
+- [[2025-08-02-Saturday]] 11:42 AM — Synced 0 highlights from 0 documents.
+- [[2025-08-04-Monday]] 2:28 AM — Synced 0 highlights from 0 documents.
+- [[2025-08-05-Tuesday]] 1:31 PM — Synced 0 highlights from 0 documents.
+- [[2025-08-06-Wednesday]] 2:37 PM — Synced 0 highlights from 0 documents.
+- [[2025-08-07-Thursday]] 3:22 PM — Synced 0 highlights from 0 documents.
+- [[2025-08-11-Monday]] 1:40 PM — Synced 1 highlight from 1 document.
+    - 1 highlights from [[Salt, Fat, Acid, Heat]]
+- [[2025-08-12-Tuesday]] 10:36 AM — Synced 1 highlight from 1 document.
+    - 1 highlights from [[Sometimes the Reason You Can’t Find People You Resonate With Is Because You Misread the Ones You Meet]]
+- [[2025-08-14-Thursday]] 3:04 AM — Synced 0 highlights from 0 documents.
+- [[2025-08-17-Sunday]] 10:25 AM — Synced 0 highlights from 0 documents.
+- [[2025-08-19-Tuesday]] 9:36 AM — Synced 3 highlights from 1 document.
+    - 3 highlights from [[How to Solve a Problem]]
+- [[2025-08-21-Thursday]] 12:10 AM — Synced 0 highlights from 0 documents.
+- [[2025-08-22-Friday]] 4:16 PM — Synced 0 highlights from 0 documents.
+- [[2025-08-26-Tuesday]] 7:10 AM — Synced 0 highlights from 0 documents.
+
+

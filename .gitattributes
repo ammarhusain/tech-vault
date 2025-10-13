@@ -1,0 +1,57 @@
+# Automatically track files larger than 50MB with Git LFS
+# Note: This is a generic rule - Git LFS doesn't natively support size-based rules
+# You'll need to manually add specific file types or use a pre-commit hook
+# Common large file types that are typically >50MB
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.tar filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.iso filter=lfs diff=lfs merge=lfs -text
+*.dmg filter=lfs diff=lfs merge=lfs -text
+*.pkg filter=lfs diff=lfs merge=lfs -text
+*.deb filter=lfs diff=lfs merge=lfs -text
+*.rpm filter=lfs diff=lfs merge=lfs -text
+# Video files (often large)
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.wmv filter=lfs diff=lfs merge=lfs -text
+*.flv filter=lfs diff=lfs merge=lfs -text
+*.webm filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+# Large datasets and models
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.model filter=lfs diff=lfs merge=lfs -text
+*.weights filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+# ML model files
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+# Large libraries
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+# Database files
+*.db filter=lfs diff=lfs merge=lfs -text
+*.sqlite filter=lfs diff=lfs merge=lfs -text
+*.sqlite3 filter=lfs diff=lfs merge=lfs -text
+# Specific files you want in LFS (from your original file)
+Areas/ai-ml/attachments/TinyStories_train.txt filter=lfs diff=lfs merge=lfs -text
+ai-ml/courses/xcs229ii-machine-learning/attachments/ski.gif filter=lfs diff=lfs merge=lfs -text
+.git.bkup/lfs/objects/13/3b/133b4a00dce38cd7f39298562ecccd86f98f44dc4f6420d46861f0d48fbff95d filter=lfs diff=lfs merge=lfs -text
+.git.bkup/lfs/objects/3b/ad/3bad904fcf281380592936795ebec05995b803e470b8644a77eee7a03f3aff40 filter=lfs diff=lfs merge=lfs -text
+.git.bkup/lfs/objects/70/90/7090e93329304e17f70e54ca8ab1304809de677ffa7bfc2d6d59b4e73441b5cd filter=lfs diff=lfs merge=lfs -text
+.git.bkup/lfs/objects/89/2a/892a940420fedf9b77255db27f483cffe27e92b1c68b347cce7950565b8bed2c filter=lfs diff=lfs merge=lfs -text
+.git.bkup/lfs/objects/e2/63/e2636ba7167f2da9468cb0c302a1e994084413cc22098349f86ae67a51e460ff filter=lfs diff=lfs merge=lfs -text
+.git.bkup/lfs/objects/ec/4e/ec4e15970e367da727ec025e045d7ffcd4195c01877c91384f14ff3bdc138435 filter=lfs diff=lfs merge=lfs -text
+.git.bkup/lfs/objects/f1/43/f1432a72ff85f557de952de42a96136d357c93e72416d0e46981dc9ee1802250 filter=lfs diff=lfs merge=lfs -text
+.git.bkup/lfs/objects/fb/a2/fba240277c22b0b4d5e1d823949082601bb5c44a5171ddc40aaefbf07d6e7e30 filter=lfs diff=lfs merge=lfs -text
+.git.bkup/objects/pack/pack-f544bfe44dd9402755e6b6d20e8f82a5fe38e4db.pack filter=lfs diff=lfs merge=lfs -text

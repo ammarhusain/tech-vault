@@ -1,0 +1,52 @@
+# [Deep Dive into LLMs like ChatGPT - YouTube](https://www.youtube.com/watch?v=7xTGNNLPyMI) 
+- Pretraining Data:
+	- [FineWeb: decanting th e web for the finest text data at scale - a Hugging Face Space by HuggingFaceFW](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1?__readwiseLocation=) (good example of cleaned up internet scale data)
+		- 44TB of disk space
+		- Data from CommonCrawl
+- Tokenization
+	- Byte Pair encoding algorithm - trades off a shorter sequence fed into the neural network for more bits dedicated to each token
+	- GPT4 uses 100277 symbols / tokens
+- Neural Network Training
+	- Need to model the statistical relationship between a sequence of tokens
+	- GPT-2 (2019) - 1.6B parameters
+		- Trained on 100 billion tokens
+		- Max context length 1024
+- Llama 3.1 base model
+	- Base model is like a internet text document  simulator - it by itself is not very useful yet
+	- To release a base model you need 2 things:
+		- inference - python code that implements forward pass detailing out the computation in the neural network
+		- model weights
+- Post -training - Supervised Fine-tuning
+	- Instruct-GPT dataset was never actually released by OpenAI. There are open source variants of it though like OpenAssistant
+	- Model starts learning a personality or vibe of how the responses should look like
+	- When you are talking to an AI you are talking to a simulation of an average labeler - these labelers are usually highly skilled in their domains
+	- Knowledge in parameters == Vague recollection (eg: something you read 1 month ago)
+	- Context window == working memory of model
+- Models need tokens to think
+	- Chain of thought helps the model so it explaining its reasoning before giving the answer makes it perform a lot better.
+		- Same reason why Xin recommended adding the reason field before selected entity in the AttentionLLM
+	- Every single token is only spending a finite amount of computation on every token. Thats why you need to spread out computation over multiple tokens by having it do the reasoning before. This helps the model answer the question because the generated reasoning gets added to the context window as it generates an answer.
+	- Models do not see characters they see tokens - chunks of text
+	- May be in the future we'll have character level or byte level sequence - get rid of tokenizers
+- Post-training: Reinforcement Learning
+	- ![[2025-02-08-Saturday-2025-02-26.png]]
+	- SFT post trained model initializes the model in the vicinity of the right solutions - The RL post training then takes those responses and really dial it in by practicing constantly and then refining the weights to generate responses of the right answer based on what works looking at the solutions to those practice problems. You can introduce various criteria on how to select the top response (in addition to correctness) like short CoT, or more math etc.
+	- GPT4o is more of an SFT model while o1 and o3 are the RL post trained ones (reasoning models). Similarly DeepSeek-R1 is one of the first open weights reasoning models that published their results. Most of the other RL post training is kept underwraps by companies (OpenAI, Anthropic, Google etc) for competitive reasons.
+	- Fairly new & evolving area of tech that is less established as compared with Pre-training and supervised finetuning
+	- Lets the system discover reasoning traces or ways of solving problems that work well for itself.
+	- Its unknown at the moment how much of the RL refinement that happens for verifiable domains improves performance in unverifiable domains
+- RLHF
+	- Used to refine models in unverifiable domains - where there is not a numeric or fixed right answer but more of a preference thing
+	- ![[2025-02-08-Saturday-2025-02-27.png]]
+	- AttentionLM can be like a reward model that one trains to do RLHF - it just scores the responses but uses a judge LM rather a human to get annotations
+	- Since our scoring function is just another giant neural net, RL will find interesting ways to game it leading the language model to produce non sensical results that this scoring function simulator will end up rating highly (because it is not perfect)
+	- RLHF you typically do not want to run for very long - you run for a few iterations and then ship it. Basically prevent the model from "gaming" it or finding the nooks & crannies of your reward model that are imperfect
+- Things to come
+	- ![[2025-02-08-Saturday-2025-02-27-1.png]]
+- Ways to stay up to date
+	- [lmarena.ai](https://lmarena.ai/)
+	- LLM Playgrounds:
+		- [Inference Playground - a Hugging Face Space by huggingface](https://huggingface.co/spaces/huggingface/inference-playground)
+		- Best place to interact with base models - [Hyperbolic AI Dashboard](https://app.hyperbolic.xyz/)
+		- [Together AI LLM Playground](https://api.together.ai/playground/chat/meta-llama/Llama-3.3-70B-Instruct-Turbo)
+		- Run locally using LMStudio

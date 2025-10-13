@@ -1,0 +1,3 @@
+[submodule "vault-management/second-brain-web-search"]
+	path = vault-management/second-brain-web-search
+	url = git@github.com:ammarhusain/second-brain-web-search.git

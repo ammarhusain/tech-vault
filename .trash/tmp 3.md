@@ -1,0 +1,5 @@
+- [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
+- [Llama 2 - Meta AI](https://ai.meta.com/llama/)
+- [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858)
+- [Llava - Visual Instruction Tuning](https://arxiv.org/abs/2304.08485
+- [Otter: A Multi-Modal Model with In-Context Instruction Tuning](https://arxiv.org/abs/2305.03726)
