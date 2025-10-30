@@ -19752,8 +19752,16 @@ var CopyImagePlugin = class extends import_obsidian.Plugin {
   constructor() {
     super(...arguments);
     this.touchTime = 0;
+    this.targetImage = null;
   }
   async onload() {
+    this.registerEvent(this.app.workspace.on("editor-menu", (menu, editor, info) => {
+      if (!this.targetImage)
+        return;
+      menu.addItem(
+        (item) => item.setTitle("Copy image to clipboard").setIcon("image").onClick(() => this.handleMenuOption()).setDisabled(!this.targetImage)
+      );
+    }));
     if (import_obsidian.Platform.isMobile) {
       this.registerDomEvent(
         document,
@@ -19769,7 +19777,8 @@ var CopyImagePlugin = class extends import_obsidian.Plugin {
       this.registerDomEvent(
         document,
         "contextmenu",
-        this.handleContextMenu.bind(this)
+        this.handleContextMenu.bind(this),
+        { capture: true }
       );
     }
     this.addCommand({
@@ -19817,6 +19826,16 @@ var CopyImagePlugin = class extends import_obsidian.Plugin {
       }
     });
   }
+  async handleMenuOption() {
+    try {
+      new import_obsidian.Notice("Copying the image...");
+      await this.trySetFocus();
+      await this.waitForFocus();
+      await this.copyImageToClipboard(void 0, this.targetImage || void 0);
+    } catch (e4) {
+      new import_obsidian.Notice(e4.message);
+    }
+  }
   async handleTouchStart(evt) {
     if (this.isImage(evt)) {
       this.touchTime = new Date().getTime();
@@ -19835,14 +19854,9 @@ var CopyImagePlugin = class extends import_obsidian.Plugin {
   }
   async handleContextMenu(evt) {
     if (this.isImage(evt)) {
-      try {
-        new import_obsidian.Notice("Copying the image...");
-        await this.trySetFocus();
-        await this.waitForFocus();
-        await this.copyImageToClipboard(evt);
-      } catch (e4) {
-        new import_obsidian.Notice(e4.message);
-      }
+      this.targetImage = evt.target;
+    } else if (this.targetImage) {
+      this.targetImage = null;
     }
   }
   async wait(ms) {
@@ -19873,8 +19887,10 @@ var CopyImagePlugin = class extends import_obsidian.Plugin {
       );
     }
   }
-  async copyImageToClipboard(evt) {
-    const target = evt.target;
+  async copyImageToClipboard(evt, targetImage) {
+    const target = (evt == null ? void 0 : evt.target) || targetImage;
+    if (!target)
+      return;
     const response = await fetch(target.src);
     const imageBlob = await response.blob();
     if (imageBlob.type === "image/png") {

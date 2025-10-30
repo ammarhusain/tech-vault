@@ -17,8 +17,6 @@ Product Management : [Stanford Online Certificate - Product Management](https://
 
 %% Begin Waypoint %%
 - **[[courses]]**
-	- **attachments**
-
 	- **[[cs285 - deeprl]]**
 		- **attachments**
 
@@ -36,8 +34,6 @@ Product Management : [Stanford Online Certificate - Product Management](https://
 
 		- [[huggingface - deeprl]]
 	- **[[MIT 6.001 Structure and Interpretation of Computer Programs, 1986]]**
-		- **attachments**
-
 	- **[[xcs224n - natural language processing]]**
 	- **[[xcs224u - natural language understanding]]**
 	- **xcs229ii-machine-learning**
