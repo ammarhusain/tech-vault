@@ -3,19 +3,6 @@ created: 2022-10-16-Sunday 21:26
 modified: 2024-03-19-Tuesday 11:19
 ---
 
-%% Begin Waypoint %%
-- **[tinkering](*ongoing/tinkering.md)**
-	- **attachments**
-		- **nanoGPT-code**
-
-		- **picoGPT**
-			- **__pycache__**
-			- **models**
-				- **124M**
-			- [[ai-ml/code-junkyard/mcp-weather/README]]
-
-%% End Waypoint %%
-
 - [ ] [[#Raspberry Pi-5]]
 - [ ] #goal #_2024 Go through this hacking book: [Ethical Hacking: A Hands-on Introduction to Breaking In: Graham, Daniel G.: 9781718501874: Amazon.com: Books](https://www.amazon.com/Ethical-Hacking-Hands-Introduction-Breaking/dp/1718501870)
 
