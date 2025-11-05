@@ -1,4 +1,4 @@
-
+- @
 - [[2025-09-14-Sunday]] - [Claude Memory: A Different Philosophy \| Shlok Khemani](https://www.shloked.com/writing/claude-memory)
 	- [Writing effective tools for AI agents—using AI agents \\ Anthropic](https://www.anthropic.com/engineering/writing-tools-for-agents?__readwiseLocation=)
 	- [Title Unavailable \| Site Unreachable](https://cookbook.openai.com/articles/gpt-oss/fine-tune-transfomers)
