@@ -1,4 +1,5 @@
-- @
+- [[2025-11-05-Wednesday]] - [Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms?publication_id=1174659&post_id=166106178&isFreemail=true&r=f2u90&triedRedirect=true&__readwiseLocation=)
+- 
 - [[2025-09-14-Sunday]] - [Claude Memory: A Different Philosophy \| Shlok Khemani](https://www.shloked.com/writing/claude-memory)
 	- [Writing effective tools for AI agents—using AI agents \\ Anthropic](https://www.anthropic.com/engineering/writing-tools-for-agents?__readwiseLocation=)
 	- [Title Unavailable \| Site Unreachable](https://cookbook.openai.com/articles/gpt-oss/fine-tune-transfomers)
