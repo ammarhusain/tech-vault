@@ -3,6 +3,14 @@ created: 2022-10-16-Sunday 21:26
 modified: 2024-03-19-Tuesday 11:19
 ---
 
+[[2025-11-05-Wednesday]]
+- Do the Raschka Reasoning book
+- Setup robot arm from HuggingFace
+- Update your resume
+
+
+
+
 - [ ] [[#Raspberry Pi-5]]
 - [ ] #goal #_2024 Go through this hacking book: [Ethical Hacking: A Hands-on Introduction to Breaking In: Graham, Daniel G.: 9781718501874: Amazon.com: Books](https://www.amazon.com/Ethical-Hacking-Hands-Introduction-Breaking/dp/1718501870)
 

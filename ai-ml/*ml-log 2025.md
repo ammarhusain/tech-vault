@@ -1,4 +1,10 @@
 - [[2025-11-05-Wednesday]] - [Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms?publication_id=1174659&post_id=166106178&isFreemail=true&r=f2u90&triedRedirect=true&__readwiseLocation=)
+	- [Direct Preference Optimization Explained In-depth](https://www.tylerromero.com/posts/2024-04-dpo/?__readwiseLocation=)
+		- When training, we know the entire text completion ahead of time, so, by applying a causal attention mask, we can calculate all of the the individual next-word probabilities $p_\theta(y|x)$ via a single forward pass through our LLM.
+		- To be explicit about the benefits of DPO over RLHF:
+			1. We avoid the need to train a reward model to estimate human preferences.
+			2. We avoid needing to perform any type of reinforcement learning, which is notoriously difficult and requires a lot of tribal knowledge to get right.
+			3. We can directly optimize our LLM on human preferences using supervised learning, which is a much more straightforward and well-understood process.
 - 
 - [[2025-09-14-Sunday]] - [Claude Memory: A Different Philosophy \| Shlok Khemani](https://www.shloked.com/writing/claude-memory)
 	- [Writing effective tools for AI agents—using AI agents \\ Anthropic](https://www.anthropic.com/engineering/writing-tools-for-agents?__readwiseLocation=)
