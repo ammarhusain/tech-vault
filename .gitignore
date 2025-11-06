@@ -39,4 +39,9 @@ Thumbs.db
 logs/
 
 # Large directories
-code-junkyard
+# code-junkyard
+
+# Jupyter notebooks with API keys
+code-junkyard/llm-api.ipynb
+code-junkyard/dspy/dspy.ipynb
+code-junkyard/junkyard.ipynb

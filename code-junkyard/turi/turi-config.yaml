@@ -1,0 +1,23 @@
+name: gpu playground
+description: Playing with GPT from scratch
+tags: [cuda]
+command: 
+    ls
+permissions:
+    viewers:
+        - ammarh
+project_id: j595_v2
+resources:
+    docker_image: docker.apple.com/genclr/pytorch2.1.0-cuda12.1.1:stable # docker.apple.com/ammar_husain/prod/attnimage-v3
+    timeout: 7d
+    memory_gb: 256
+    task_type: 8gpu
+    num_cpus: 8
+    num_nodes: 1
+    ports: [NOTEBOOK_PORT, BOLT_TAB_TensorBoard]
+    rdma: false
+    disk_gb: 1024
+    cluster: gcp2
+cluster_options:
+    gcp:
+        instance_type: a2-ultragpu-8g
