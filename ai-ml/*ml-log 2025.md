@@ -1,10 +1,75 @@
-- [[2025-11-05-Wednesday]] - [Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms?publication_id=1174659&post_id=166106178&isFreemail=true&r=f2u90&triedRedirect=true&__readwiseLocation=)
+
+- [[2025-12-03-Wednesday]]
+	- [Olmo 3 Technical Report.pdf](https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf)
+		- 3 stage finetuning: SFT -> DPO -> RLVR: we find that our RL framework yields greater improvements when applied after the DPO stage rather than directly following SFT 
+		- Good technical details & learnings on full model training
+	- [LLMs from scatch - Attention Alternatives](https://sebastianraschka.com/llms-from-scratch/ch04/#attention-alternatives)
+		- [Multi-Head Latent Attention (MLA)](https://sebastianraschka.com/llms-from-scratch/ch04/05_mla/) - quick easy walkthrough of a simple concept. instead of sharing KV vectors for multiple Q vectors - it just adds another linear layer to downsample the KV vector to save memory footprint. Resamples it back up for inference
+		- [Gated DeltaNet for Linear Attention](https://sebastianraschka.com/llms-from-scratch/ch04/08_deltanet/) - still dont quite understand the implementation but the idea is to maintain a hidden state that encapsulates all previous tokens like an RNN rather than matching each token with every other token.
+		- 
+- [[2025-12-01-Monday]]
+	- [the bug that taught me more about PyTorch than years of using it \| Elana Simon](https://elanapearl.github.io/blog/2025/the-bug-that-taught-me-pytorch/?__readwiseLocation=)
+	- [The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison)
+		- [YaRN](https://arxiv.org/abs/2309.00071) is essentially a careful RoPE rescaling technique, which helps preserve model quality better at long context sizes.
+		- ![[../attachments/image.jpg]]
+	
+	- [LLMs-from-scratch/ch05/13\_olmo3/standalone-olmo3.ipynb at main · rasbt/LLMs-from-scratch · GitHub](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/13_olmo3/standalone-olmo3.ipynb) - god walkthrough of the Olmo3 model from scratch - pretty similar to Qwen3 that you already implemented. Only main addition is the sliding window attention where the bulk of the work is done in the mask creation steps
+
+	- [What if you don't need MCP at all?](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
+	- [LLM APIs are a Synchronization Problem \| Armin Ronacher's Thoughts and Writings](https://lucumr.pocoo.org/2025/11/22/llm-apis/)
+	- [Agent Design Is Still Hard \| Armin Ronacher's Thoughts and Writings](https://lucumr.pocoo.org/2025/11/21/agents-are-hard/)
+		Interesting observation; Claude Haiku & Sonnet are great tool callers so ideal to have as the main agent loop. Gemini is better at summarization, image captioning etc so great choice for building those tools. 
+			Perhaps there will be LLMs that are. specialized for agentic systems similar to Instruct, Thinking models not so far in the future.
+	- [Understanding Reasoning LLMs - by Sebastian Raschka, PhD](https://magazine.sebastianraschka.com/p/understanding-reasoning-llms)
+		~={red}- Some interesting ideas in this article for my task planning agent work [[../*ongoing/action sequencing-m0|action sequencing-m0]] - overall best for me to do SFT on reasoning traces rather than try to do heavy RL on a small on device model=~
+		- results suggest that distillation is far more effective than pure RL for smaller models. This aligns with the idea that RL alone may not be sufficient to induce strong reasoning abilities in models of this scale, whereas SFT on high-quality reasoning data can be a more effective strategy when working with small models.
+		- ![[../attachments/*ml-log 2025-2025-12-02-1.png]]
+		- ![[../attachments/*ml-log 2025-2025-12-02-2.png]]
+	- [Understanding the 4 Main Approaches to LLM Evaluation (From Scratch)](https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches?__readwiseLocation=)
+	
+		- Four types of evaluation methods: _**multiple choice**_, code or math **_verifiers_**, **_leaderboards_** with ELO ratings where humans pick prefered responses, and **_LLM judges_**
+		- Unlike verifiers, which check correctness symbolically and usually only at the outcome level, PRMs provide step-by-step reward signals during training in reinforcement learning. We can categorize PRMs as “step-level judges,” which are predominantly developed for training, not pure evaluation. In practice, PRMs are difficult to train reliably at scale.
+
+			
+- [[2025-11-17-Monday]] - [Thinking through how pretraining vs RL learn](https://www.dwarkesh.com/p/bits-per-sample)
+	- [How I'm using coding agents in September, 2025](https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/?__readwiseLocation=)
+		- Cool idea to separate out the implementer claude with the evaluator claude - one writes the code and the other critiques it. Run 2 sessions in 2 different terminals of the same repo
+- [[2025-11-10-Monday]]
+	- [Proximal Policy Optimization (PPO) for LLMs Explained Intuitively - YouTube](https://www.youtube.com/watch?v=8jtAzxUwDj0)
+		- PPO is from OpenAI and GRPO is from DeepSeek
+		-  Models with both policy & value functions are called actor-critic models
+			-![[../attachments/CleanShot 2025-11-10 at 17.18.17@2x.png]]
+		- ![[../attachments/CleanShot 2025-11-10 at 17.27.19@2x.png]]
+		- The ratio of the policy vs the reference policy in the poliocy gradient loss is because of importance sampling where we are trying to figure out how to sample from the new language model distribution by sampling from the reference.
+	- [\[Full Workshop\] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han - YouTube](https://www.youtube.com/watch?v=OkEGJ5G3foU) (found [[2025-07-28-Monday]])
+		- ![[../attachments/CleanShot 2025-11-10 at 15.12.20@2x.png]]
+		- ![[../attachments/CleanShot 2025-11-10 at 15.30.01@2x.png]]![[../attachments/CleanShot 2025-11-10 at 15.22.21@2x.png]]
+		- ![[../attachments/CleanShot 2025-11-10 at 15.52.09@2x.png]]
+		- Baseline in RL is the average reward from that state. So Advantage is essentially the "bonus" reward of taking that particular action over the average reward from taking all possible actions from that state.
+	- Very simple barebones implementation of REINFORCE policy gradient algorithm:
+		- [reinforce/reinforce.py at main · drozzy/reinforce · GitHub](https://github.com/drozzy/reinforce/blob/main/reinforce.py)
+		- [REINFORCE: Reinforcement Learning Most Fundamental Algorithm - YouTube](https://www.youtube.com/watch?v=5eSh5F8gjWU)
+- [[2025-11-05-Wednesday]] 
+	- [Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms?publication_id=1174659&post_id=166106178&isFreemail=true&r=f2u90&triedRedirect=true&__readwiseLocation=)
 	- [Direct Preference Optimization Explained In-depth](https://www.tylerromero.com/posts/2024-04-dpo/?__readwiseLocation=)
 		- When training, we know the entire text completion ahead of time, so, by applying a causal attention mask, we can calculate all of the the individual next-word probabilities $p_\theta(y|x)$ via a single forward pass through our LLM.
+		- ![[../attachments/CleanShot 2025-11-06 at 10.08.16.png]]
 		- To be explicit about the benefits of DPO over RLHF:
 			1. We avoid the need to train a reward model to estimate human preferences.
 			2. We avoid needing to perform any type of reinforcement learning, which is notoriously difficult and requires a lot of tribal knowledge to get right.
 			3. We can directly optimize our LLM on human preferences using supervised learning, which is a much more straightforward and well-understood process.
+	- [What Are Large Reasoning Models (LRMs)? Smarter AI Beyond LLMs - YouTube](https://www.youtube.com/watch?v=enLbj0igyx4)
+		- Training a Large Reasoning model follows the same set of steps: 
+			- Pretraining -> SFT -> RLHF/DPO
+		- However the SFT data should now contain reasoning traces that the model learns to generate in order to finetune
+	- [Implementing GRPO in TRL - Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter12/4)
+		- Describes GRPO (very briefly) but more interesting are the different reward functions that I could incorporate in [[../*ongoing/action sequencing-m0|action sequencing-m0]] as well for behavior generation
+		- GRPO was an innovation in  [[*shiny-fm-llm#DeepSeek-R1 paper]] that enabled them to train the model at a fraction of the cost
+		- GRPO is a variant of PPO that does not necessarily need a trained reward model - similar to DPO that just uses the classification loss. However GRPO is more powerful
+	- [DeepSeek's GRPO (Group Relative Policy Optimization) \| Reinforcement Learning for LLMs - YouTube](https://www.youtube.com/watch?v=xT4jxQUl0X8&t=53s)
+		- GRPO - the baseline to compute the advantage of an action is simply the average reward of the "Group". They also only compute it at the end of a trajectory rather than intermediate rewards after every token.
+		- They add intermediate rewards (say after every sentence) and call that process supervision
+		- 
 - 
 - [[2025-09-14-Sunday]] - [Claude Memory: A Different Philosophy \| Shlok Khemani](https://www.shloked.com/writing/claude-memory)
 	- [Writing effective tools for AI agents—using AI agents \\ Anthropic](https://www.anthropic.com/engineering/writing-tools-for-agents?__readwiseLocation=)
@@ -91,9 +156,6 @@
 		- We found models dump massive attention onto the first few tokens as "attention sinks"—places to park unused attention since softmax requires weights to sum to 1. Our solution, StreamingLLM, simply keeps these first 4 tokens permanently while sliding the window for everything else
 		- The presence of a sink draws attention away from other tokens, limiting the spread of information (and noise) and resulting in more stable embeddings.
 		- Sometimes an impactful discovery emerges not from grand theoretical breakthroughs, but from carefully investigating the curious details that others might overlook. In our case, questioning why a few seemingly meaningless tokens were so critical led us to uncover a mechanism that every Transformer model relies on—one that was hiding in plain sight.
-
-- [[2025-07-28-Monday]] #tinker_short 
-	- [\[Full Workshop\] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han - YouTube](https://www.youtube.com/watch?v=OkEGJ5G3foU)
 
 [[2025-07-10-Thursday]] [CaMeL offers a promising new direction for mitigating prompt injection attacks](https://simonwillison.net/2025/Apr/11/camel/?__readwiseLocation=)
 - [Highlights from the Claude 4 system prompt](https://simonwillison.net/2025/May/25/claude-4-system-prompt/?__readwiseLocation=)

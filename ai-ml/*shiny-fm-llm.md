@@ -404,6 +404,11 @@ The launch reflects a broader industry move away from static chatbots toward **
 First omni model from Qwen
 [Qwen2.5-Omni-7B: Voice Chat + Video Chat! Powerful New Opensource end-to-end multimodal model - YouTube](https://www.youtube.com/watch?v=yKcANdkRuNI)
 ![[shiny-fm-llm-2025-03-28.png]]
+
+### Qwen-3 
+[[2025-11-19-Wednesday]] - released in July 2025
+[Understanding and Implementing Qwen3 From Scratch](https://magazine.sebastianraschka.com/p/qwen3-from-scratch)
+![[../attachments/*shiny-fm-llm-2025-11-19.png]]
 ## Gemma Series
 ### Gemma-2
 [[2024-06-30-Sunday]] : Gemma 2 in 9B and 27B parameter sizes, trained on 13T tokens (27B) and 8T tokens (9B). Uses **SFT, Distillation, RLHF & Model Merging**. Trained on Google TPUv5e. Apparently beats Llama-70B in LMSYS
@@ -484,6 +489,9 @@ Uses DPO for finetuning [[*ongoing/smol-course]]
 **Kimi K2 (1T MoE) Open-Weights Release**: **Moonshot AI** has released **Kimi K2**, a **1 trillion** parameter (**32B** active) Mixture-of-Experts model with an **MIT license**. The model was trained on **15.5 trillion tokens** with zero training instability using the **MuonClip** optimizer
 Better base model than [[#DeepSeek-V3 & R1]]
 
+### Kimi K2- Thinking
+[[2025-11-17-Monday]]- [Kimi K2 Thinking](https://moonshotai.github.io/Kimi-K2/thinking.html)
+Performs better than frontier reasoning models apparently
 
 ## Genie series
 World Models for simulations
