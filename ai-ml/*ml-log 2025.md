@@ -1,3 +1,14 @@
+- [[2025-12-16-Tuesday]]
+	- [Why are GPUs well-suited to deep learning? - Quora](https://www.quora.com/Why-are-GPUs-well-suited-to-deep-learning)
+		- in order of importance: (1) High bandwidth main memory, (2) hiding memory access latency under thread parallelism, and (3) large and fast register and L1 memory which is easily programmable are the components which make GPUs so well suited for deep learning.
+	- [Why AGI Will Not Happen — Tim Dettmers](https://timdettmers.com/2025/12/10/why-agi-will-not-happen/)
+		- Two ideas to remember: First, larger caches are slower. Second, as we get smaller and smaller transistors, computation gets cheaper, but memory becomes more expensive, relatively speaking.
+		- To process information usefully, you need to do two things: compute local associations (MLP) and pool more distant associations to the local neighborhood (attention).
+		- Computation is physical. With bigger brains, we would not be able to have children — not because of the birth canal being too small, but because we would not be able to provide enough energy — making our current intelligence a physical boundary that we cannot cross due to energy limitations. We are close to reaching the same limits for digital computation.
+	- [Animals vs Ghosts \| karpathy](https://karpathy.bearblog.dev/animals-vs-ghosts/?__readwiseLocation=)
+		- TLDR: Pretraining is our crappy evolution. It is one candidate solution to the cold start problem, to be followed later by finetuning on tasks that look more correct, e.g. within the reinforcement learning framework, as state of the art frontier LLM labs now do pervasively.
+		- So that brings us to where we are. Stated plainly, today's frontier LLM research is not about building animals. It is about summoning ghosts. You can think of ghosts as a fundamentally different kind of point in the space of possible intelligences. They are muddled by humanity. Thoroughly engineered by it. They are these imperfect replicas, a kind of statistical distillation of humanity's documents with some sprinkle on top.
+
 
 - [[2025-12-03-Wednesday]]
 	- [Olmo 3 Technical Report.pdf](https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf)

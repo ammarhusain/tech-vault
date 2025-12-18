@@ -1,0 +1,12 @@
+- [Field Notes From Shipping Real Code With Claude - diwank's space](https://diwank.space/field-notes-from-shipping-real-code-with-claude?__readwiseLocation=)
+	- 3 roles:
+	- AI as first drafter: design doc, brainstorm architecture 
+	- As pair programmer: pick sections of code or small functions for it to implement
+	- As Validator: bg check, critique, find optimizations
+	- `CLAUDE.md` is not optional documentation. Every minute you spend updating it saves an hour of cleanup later.
+	- Use Anchor Comments - Breadcrumbs at Scale where you pepper your code with things for AI to do or not touch
+	- Try out using git worktrees
+- [How I'm using coding agents in September, 2025](https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/?__readwiseLocation=)
+	- Has examples of slash commands & skills
+	- Cool idea to separate out the implementer claude with the evaluator claude - one writes the code and the other critiques it. Run 2 sessions in 2 different terminals of the same repo
+
