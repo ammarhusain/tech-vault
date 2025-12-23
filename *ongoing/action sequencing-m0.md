@@ -10,7 +10,8 @@
 	- 
 # Log
 
-- [2025-05-13-Tuesday](2025-05-13-Tuesday) 
+- Got ChoreoKit working as a python wrapper. Also set up Jakubs py motif mirror with my task planner gym. Now just need to start hooking up the frontier LLM - Gemini 2.5 Flash
+	- ![[../attachments/animations_3p.mp4]]
 - [[2025-08-14-Thursday]] Chat with Arto, Martin
 	- Just build a simple vibe coding tool using BehaviorKit, Motion API + EntityKit API
 		- Command could be as simple as: PlayAnimation when someone enters view

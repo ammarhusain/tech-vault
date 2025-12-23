@@ -8,6 +8,15 @@
 	- [Animals vs Ghosts \| karpathy](https://karpathy.bearblog.dev/animals-vs-ghosts/?__readwiseLocation=)
 		- TLDR: Pretraining is our crappy evolution. It is one candidate solution to the cold start problem, to be followed later by finetuning on tasks that look more correct, e.g. within the reinforcement learning framework, as state of the art frontier LLM labs now do pervasively.
 		- So that brings us to where we are. Stated plainly, today's frontier LLM research is not about building animals. It is about summoning ghosts. You can think of ghosts as a fundamentally different kind of point in the space of possible intelligences. They are muddled by humanity. Thoroughly engineered by it. They are these imperfect replicas, a kind of statistical distillation of humanity's documents with some sprinkle on top.
+	- [Agent Reinforcement Fine Tuning – Will Hang & Cathy Zhou, OpenAI - YouTube](https://www.youtube.com/watch?v=p1CmPZ2j6Lk)
+		- Similar to the SFT product OpenAI launched in 2022 now they have RLFT
+	- [Don't Build Agents, Build Skills Instead – Barry Zhang & Mahesh Murag, Anthropic - YouTube](https://www.youtube.com/watch?v=CEvIs9y1uog)
+		- Skills are just folders with files containing simple instructions and scripts for claude to use
+		- Anthropic is boiling everything down to bash, simple python code, APIs and filesystem as their artifact abstraction
+		- Treats skills as simple atomic software packages / libraries. English is really becoming the new hot programming language
+		- Pushes the paradigm of continuous learning further by using incontext learning. Cann keep updating its skills as it personalizes to your needs - memory is tangible
+		- Models (Processor) -> Agents (OS) -> Skills (Apps)
+	- [How confessions can keep language models honest \| OpenAI](https://openai.com/index/how-confessions-can-keep-language-models-honest/?lid=TEhaKxfarZ0mipsa&__readwiseLocation=)
 
 
 - [[2025-12-03-Wednesday]]
