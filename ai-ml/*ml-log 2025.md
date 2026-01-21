@@ -1,3 +1,18 @@
+### 2026
+- [[2026-01-06-Tuesday]] [2025 LLM Year in Review \| karpathy](https://karpathy.bearblog.dev/year-in-review-2025/?lid=pez2HMqBZVKHxuis)
+	- [The space of minds \| karpathy](https://karpathy.bearblog.dev/the-space-of-minds/)
+	- [Verifiability \| karpathy](https://karpathy.bearblog.dev/verifiability/)
+		- Tasks that are verifiable progress rapidly, including possibly beyond the ability of top experts (e.g. math, code, amount of time spent watching videos, anything that looks like puzzles with correct answers), while many others lag by comparison (creative, strategic, tasks that combine real-world knowledge, state, context and common sense).
+	- [The Shape of AI: Jaggedness, Bottlenecks and Salients](https://www.oneusefulthing.org/p/the-shape-of-ai-jaggedness-bottlenecks?publication_id=1180644&post_id=182146605&triggerShare=true&isFreemail=true&r=f2u90&triedRedirect=true)
+		- If you want to understand where AI is headed, don’t watch the benchmarks. Watch the bottlenecks. When one breaks, everything behind it comes flooding through. Image generation was holding back presentations, documents, visual communication of all kinds. Now it isn’t. What’s the next bottleneck? Memory? Real-time learning? The ability to take actions in the physical world?
+	- [Simon Wilson - 2025: The year in LLMs](https://simonwillison.net/2025/Dec/31/the-year-in-llms/)
+	- [Claude Code and What Comes Next - by Ethan Mollick](https://www.oneusefulthing.org/p/claude-code-and-what-comes-next?img=https://substack-post-media.s3.amazonaws.com/public/images/7578e764-9932-45d5-8d11-d36eb7a7a1fc_1379x918.png&open=false)
+	- [LLM predictions for 2026, shared with Oxide and Friends](https://simonwillison.net/2026/Jan/8/llm-predictions-for-2026/)
+
+
+
+### 2025
+
 - [[2025-12-16-Tuesday]]
 	- [Why are GPUs well-suited to deep learning? - Quora](https://www.quora.com/Why-are-GPUs-well-suited-to-deep-learning)
 		- in order of importance: (1) High bandwidth main memory, (2) hiding memory access latency under thread parallelism, and (3) large and fast register and L1 memory which is easily programmable are the components which make GPUs so well suited for deep learning.
