@@ -1,4 +1,10 @@
 ### 2026
+- [[2026-01-30-Friday]] [Karpathy - A few random notes from claude coding quite a bit last few weeks.](https://x.com/karpathy/status/2015883857489522876/?rw_tt_thread=True&__readwiseLocation=)
+- 
+- [[2026-01-26-Monday]] [Unrolling the Codex agent loop \| OpenAI](https://openai.com/index/unrolling-the-codex-agent-loop/?__readwiseLocation=)
+	- Pretty straightforward while loop with focus on appending messages to JSON to preserve cache integrity and occassionally compact conversations to preserve context window.
+	- [Wilson Lin on FastRender: a browser built by thousands of parallel agents](https://simonwillison.net/2026/Jan/23/fastrender/)
+	- [Management as AI superpower - by Ethan Mollick](https://www.oneusefulthing.org/p/management-as-ai-superpower?publication_id=1180644&post_id=185639446&isFreemail=true&token=eyJ1c2VyX2lkIjoyNTMyNjc1NiwicG9zdF9pZCI6MTg1NjM5NDQ2LCJpYXQiOjE3Njk1MzMwNzIsImV4cCI6MTc3MjEyNTA3MiwiaXNzIjoicHViLTExODA2NDQiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.NF9auaSiPYgkB56Ag0RUfV4tUMrYi0Oz93KgvYpnLG0&r=f2u90&triedRedirect=true)
 - [[2026-01-06-Tuesday]] [2025 LLM Year in Review \| karpathy](https://karpathy.bearblog.dev/year-in-review-2025/?lid=pez2HMqBZVKHxuis)
 	- [The space of minds \| karpathy](https://karpathy.bearblog.dev/the-space-of-minds/)
 	- [Verifiability \| karpathy](https://karpathy.bearblog.dev/verifiability/)

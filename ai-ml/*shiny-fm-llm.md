@@ -493,6 +493,7 @@ Better base model than [[#DeepSeek-V3 & R1]]
 [[2025-11-17-Monday]]- [Kimi K2 Thinking](https://moonshotai.github.io/Kimi-K2/thinking.html)
 Performs better than frontier reasoning models apparently
 
+### Kimi K2.5 [Here's a short video from our founder, Zhilin Yang. - YouTube](https://www.youtube.com/watch?v=5rithrDqeN8)
 ## Genie series
 World Models for simulations
 [Genie 3: A new frontier for world models - Google DeepMind](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/)
